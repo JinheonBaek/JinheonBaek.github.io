@@ -11,17 +11,23 @@ Currently, I'm attending at Korea University in 4th year. Major is Computer Scie
 My vision is a specialist for software research & development to make a better world. Also, I think philosophy is the source of life. For that reason, I want to be a engineer & researcher who embraces one's philosophy into code. <br>
 Although I enjoy using rapidly changed framework, I want to foucs more on software research in these days.
 
+---
+
 ## Research Interest
 * Data Mining
 * Machine Learning (Deep Learning)
 * Information System {Focus on Data}
 * Cloud Platform (Architecture)
 
+---
+
 ## Eduation
 ### Korea University
 * Bachelor of Engineering in Computer Science and Engineering, Spring 2016 -
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Fall 2017 -
 * Total GAP of 4.38 / 4.5 (98.6 / 100)
+
+---
 
 ## Publication
 ### Domestic Journal (South Korea)
