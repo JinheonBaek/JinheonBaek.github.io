@@ -12,6 +12,9 @@ author: Jinheon Baek
 language: ko
 date_format: '%Y-%m-%d'
 
+# Github Repository Setting
+repository: JinheonBaek/jinheonbaek.github.io
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://jinheonbaek.github.io
