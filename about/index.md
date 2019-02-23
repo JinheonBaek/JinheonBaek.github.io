@@ -67,7 +67,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 - ### Inc0gnito Hacking Conference
     - Chairman (Jan 2018 ~ Fec 2018)
     - Inc0gnito is the largest information security conference in Korea organized by university students.
-    - Organize conference covers various techs, news and trends on information security area, which also aims the goal of being a meeting place of future information security specialists.
+    - Organized conference covers various techs, news and trends on information security area, which also aims the goal of being a meeting place of future information security specialists.
 
 - ### SW Maestro
     - 8th Trainee (Jul 2017 ~ Dec 2017)
