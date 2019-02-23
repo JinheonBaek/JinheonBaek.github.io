@@ -62,6 +62,12 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
     - Lead (Jan 2017 ~ Feb 2018)
         - Planned monthly seminar and reviewed technical contents of each team with Microsoft Employees.
     - **Global Summit Program Representative of Korean** (May 2017)
+
+- ### Inc0gnito Hacking Conference
+    - Chairperson (Jan 2018 ~ Fec 2018)
+    - Inc0gnito is the largest information security conference in Korea organized by university students.
+    - Organize conference covers various techs, news and trends on information security area, which also aims the goal of being a meeting place of future information security specialists.
+
 - ### SW Maestro
     - 8th Trainee (Jul 2017 ~ Dec 2017)
     - SW Maestro is the largest government-funded project to train talented students on software at Korea.
@@ -70,3 +76,4 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 ---
 
 # Extra-curricular Activities
+- ###
