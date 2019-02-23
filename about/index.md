@@ -119,23 +119,22 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 
 # Volunteering Experiences
 - ### WoonWha
-    - Mathematics and Homeroom teacher (Jul 2016 ~ Jul 2017)
-    - Korea University Education Volunteer Club.
+    - Korea University Education Volunteer Club, Mathematics and Homeroom teacher. (Jul 2016 ~ Jul 2017)
     - Volunteered for a children vulnerable to education due to family circumstances, twice a week that ranks almost 300 hours.
 
 - ### Do-Dream
-    - Samsung Dream Scholarship Foundation 5th Overseas Volunteering (Jan 2017)
+    - Samsung Dream Scholarship Foundation 5th Overseas Volunteering, Volunteer. (Jan 2017)
     - During two weeks, volunteered for Cambodia contryside children by building school, sharing culture and teaching children.
 
 ---
 
 # Honors and Awards
 - #### Prize in SKT & SKB (T&B) Code Challenge. (08 Aug 2018)
-    - Developed content recommendation algorithm based on historical data of oksusu/B tb content viewed.
+    - Developed content recommendation algorithm based on historical data of oksusu/B tv content viewed.
 
 - #### Second Prize in Microsoft Student Partners X AI Anna. (03 Mar 2018)
     - Developed payee prediction model based on dating application data.
     
-- #### First Prize in Microsoft Student Partners Korea (May 2017)
+- #### First Prize in Microsoft Student Partner Korea (May 2017)
     - Global Summit Program Representative of Korean.
     - Conducted a role as a technical ambassador of Korean Student Partners.
