@@ -25,7 +25,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 ### Korea University
 * Bachelor of Engineering in Computer Science and Engineering, Spring 2016 -
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Fall 2017 -
-* Total GAP of 4.38 / 4.5 (98.6 / 100)
+* Total GPA of 4.38 / 4.5 (98.6 / 100)
 
 ---
 
