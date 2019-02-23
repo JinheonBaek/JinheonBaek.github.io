@@ -38,6 +38,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 * 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018. (포스터발표, 우수논문선정)
 
 ---
+
 # Experiences
 - ### ETRI (Electronics and Telecommunications Research Institute), Daejeon, Korea
     - Trainee of Research, Smart Data Research Group, Intelligence Information Research Division, SW·Contents Research Laboratory. (Jan 2019 ~ Feb 2019)
@@ -52,7 +53,8 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
         - edu0830
 
 ---
-# Extra-curriclar Acitivities
+
+# Extra-curriclar Acitivities (Selected)
 - ### Microsoft Student Partners
     - Developer (Jul 2016 ~ )
         - Educated Developers mainly on Azure, Machine Learning.
@@ -64,4 +66,3 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
     - 8th Trainee (Jul 2017 ~ Dec 2017)
     - SW Maestro is the largest government-funded project to train talented students on software at Korea.
     - Researched & Developed *Automatically Blocking Obscene & Violenet Movie Contents using Machine Learning.*
-- #### KUICS
