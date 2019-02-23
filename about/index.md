@@ -55,7 +55,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 ---
 
 # Extra-curricular Activities (Selected)
-- ### Microsoft Student Partners
+- ### Microsoft Student Partner
     - Developer (Jul 2016 ~ )
         - Educated Developers mainly on Azure, Machine Learning.
         - Developed Management Platform for welfare institution focus on attendance of people using face recognition.
@@ -65,7 +65,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
         - Conducted a role as a technical ambassador of Korean Student Partners.
 
 - ### Inc0gnito Hacking Conference
-    - Chairperson (Jan 2018 ~ Fec 2018)
+    - Chairman (Jan 2018 ~ Fec 2018)
     - Inc0gnito is the largest information security conference in Korea organized by university students.
     - Organize conference covers various techs, news and trends on information security area, which also aims the goal of being a meeting place of future information security specialists.
 
@@ -77,4 +77,65 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 ---
 
 # Extra-curricular Activities
-- ###
+- ### Stepping Stone
+    - Scholarship Board Member (Jul 2016 ~ Feb 2019)
+    - Stepping Stone is the Samsung Dream Scholarship Foundation Scholarship Student Board.
+    - Connected foundation of the Samsung Dream Scholarship with scholarship students.
+    - Planned and promoted various programs for scholarship students.
+
+- ### KUICS (Korea University Institute of Computer Security / Club)
+    - Chairman (Jul 2017 ~ Feb 2018)
+    - Vice Chairman (Sep 2016 ~ Jun 2017)
+    - Taught Basic Security to freshman.
+    - Organized and participated in study groups, CTF contests and external relationship with other security clubs.
+
+- ### Korea University College of Information Student Board
+    - Chairman of Education & Welfare Division (Mar 2017 ~ Nov 2017)
+    - Member of Education & Welfare Division (Mar 2016 ~ Nov 2016)
+
+---
+
+# Teaching and Speaking Experiences
+- ### Teachning Assistant at the Korea University
+    - Worked for Computing the World in General Subject. (Mar 2017 ~ Jun 2017)
+        - Assisted computational thinking, python and block-coding system (Entry-board) for non-major student in Computer Science & Engineering.
+
+- ### Microsoft Student Partner Activities
+    - Introduced Machine Learning using Azure Machine Learning Studio with Basic Machine Learning algorithm (27 Nov 2016, 25 Nov 2017)
+    - Introduced Microsoft AI Technology, Cognitive Service, and Serverless Cloud Service, Azure Function, using JavaScript and Python. (04 Nov 2017)
+    - Introduced Microsoft Face Recognition Login System built in Windows 10, Windows Hello, Microsoft Student Partner Inner Tech. Seminar. (06 Oct 2016)
+
+- ### KAIST ICISTS Experience Session
+    - Participated and Held Experience Session in the capacity of Microsoft. (01 Aug 2017)
+    - Introduced Microsoft AI services.
+    - Made simple web game that recognizes face emotion using Microsoft Cognitive API to promote Microsoft AI services.
+
+- ### KUSISWALL Seminar
+    - KUSISWALL is a joint seminar of Korea, Sookmyung, Hanyang University on information security.
+    - Presented the topic of phishing website detection using Azure Machine Learning. (02 Feb 2018)
+    - Presented the topic of security issue of Hash encryption and Linux password. (25 Jun 2016)
+
+---
+
+# Volunteering Experiences
+- ### WoonWha
+    - Mathematics and Homeroom teacher (Jul 2016 ~ Jul 2017)
+    - Korea University Education Volunteer Club.
+    - Volunteered for a children vulnerable to education due to family circumstances, twice a week that ranks almost 300 hours.
+
+- ### Do-Dream
+    - Samsung Dream Scholarship Foundation 5th Overseas Volunteering (Jan 2017)
+    - During two weeks, volunteered for Cambodia contryside children by building school, sharing culture and teaching children.
+
+---
+
+# Honors and Awards
+- #### Prize in SKT & SKB (T&B) Code Challenge. (08 Aug 2018)
+    - Developed content recommendation algorithm based on historical data of oksusu/B tb content viewed.
+
+- #### Second Prize in Microsoft Student Partners X AI Anna. (03 Mar 2018)
+    - Developed payee prediction model based on dating application data.
+    
+- #### First Prize in Microsoft Student Partners Korea (May 2017)
+    - Global Summit Program Representative of Korean.
+    - Conducted a role as a technical ambassador of Korean Student Partners.
