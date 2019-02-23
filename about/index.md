@@ -54,7 +54,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 
 ---
 
-# Extra-curriclar Acitivities (Selected)
+# Extra-curricular Activities (Selected)
 - ### Microsoft Student Partners
     - Developer (Jul 2016 ~ )
         - Educated Developers mainly on Azure, Machine Learning.
@@ -66,3 +66,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
     - 8th Trainee (Jul 2017 ~ Dec 2017)
     - SW Maestro is the largest government-funded project to train talented students on software at Korea.
     - Researched & Developed *Automatically Blocking Obscene & Violenet Movie Contents using Machine Learning.*
+
+---
+
+# Extra-curricular Activities
