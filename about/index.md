@@ -62,6 +62,7 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
     - Lead (Jan 2017 ~ Feb 2018)
         - Planned monthly seminar and reviewed technical contents of each team with Microsoft Employees.
     - **Global Summit Program Representative of Korean** (May 2017)
+        - Conducted a role as a technical ambassador of Korean Student Partners.
 
 - ### Inc0gnito Hacking Conference
     - Chairperson (Jan 2018 ~ Fec 2018)
