@@ -36,3 +36,9 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 
 ### Domestic Conference (South Korea)
 * 박동현, 박용규, 장부루, <b>백진헌</b>, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018. (포스터발표, 우수논문선정)
+
+---
+## Experience
+
+---
+## Extra-curriclar Acitivities
