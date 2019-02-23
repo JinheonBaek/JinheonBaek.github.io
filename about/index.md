@@ -2,6 +2,7 @@
 layout: page
 type: about
 title: "Jinheon Baek"
+sitemap: true
 ---
 
 <br>
