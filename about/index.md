@@ -101,9 +101,13 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
         - Assisted computational thinking, python and block-coding system (Entry-board) for non-major student in Computer Science & Engineering.
 
 - ### Microsoft Student Partner Activities
-    - Introduced Machine Learning using Azure Machine Learning Studio with Basic Machine Learning algorithm (27 Nov 2016, 25 Nov 2017)
-    - Introduced Microsoft AI Technology, Cognitive Service, and Serverless Cloud Service, Azure Function, using JavaScript and Python. (04 Nov 2017)
+    - Introduced concept of Machine Leraning with basic algorithm and code, Microsoft Coding Education Volunteer Group Seminar. (13 Jul 2018)
+    - Introduced concept of Machine Learning and Deep Learning with basic algorithm and code challenge, Microsoft New-Comer Tech Seminar. (25 May 2018)
+    - Introduced IaaS (Intrastructure As A Service) of Microsoft Azure, Microsoft New-Comer Tech Seminar. (17 Apr 2018)
+    - Introduced Machine Learning using Azure Machine Learning Studio with Basic Machine Learning algorithm, Microsoft Student Partner Evangelism Activity. (27 Nov 2016, 25 Nov 2017)
+    - Introduced Microsoft AI Technology, Cognitive Service, and Serverless Cloud Service, Azure Function, using JavaScript and Python, Microsoft Student Partner Evangelism Avtivity. (04 Nov 2017)
     - Introduced Microsoft Face Recognition Login System built in Windows 10, Windows Hello, Microsoft Student Partner Inner Tech. Seminar. (06 Oct 2016)
+    - __*Presented more than mentioned above.*__
 
 - ### KAIST ICISTS Experience Session
     - Participated and Held Experience Session in the capacity of Microsoft. (01 Aug 2017)
@@ -132,9 +136,12 @@ Although I enjoy using rapidly changed framework, I want to foucs more on softwa
 - #### Prize in SKT & SKB (T&B) Code Challenge. (08 Aug 2018)
     - Developed content recommendation algorithm based on historical data of oksusu/B tv content viewed.
 
-- #### Second Prize in Microsoft Student Partners X AI Anna. (03 Mar 2018)
+- #### Second Prize in Microsoft Student Partners X AI Anna Prediction Model Challenge. (03 Mar 2018)
     - Developed payee prediction model based on dating application data.
-    
+
+- #### Second Prize in Microsoft Student Partners (25 Feb 2018)
+    - For excellence in Microsoft Student Partner Evangelism Activity as a team leader in Korea during the second half of 2017.
+
 - #### First Prize in Microsoft Student Partner Korea (May 2017)
     - Global Summit Program Representative of Korean.
     - Conducted a role as a technical ambassador of Korean Student Partners.
