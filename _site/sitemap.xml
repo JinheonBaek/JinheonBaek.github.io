@@ -3,46 +3,18 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://0.0.0.0:4000/%EA%B8%B0%EC%88%A0/docker/2019/02/25/Docker-%EA%B0%9C%EC%9A%94%EC%99%80-%EC%9E%85%EB%AC%B8/</loc>
+    <loc>http://localhost:4000/%EA%B8%B0%EC%88%A0/docker/2019/02/25/Docker-%EA%B0%9C%EC%9A%94%EC%99%80-%EC%9E%85%EB%AC%B8/</loc>
     
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-25T00:00:00+09:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://0.0.0.0:4000/%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/</loc>
+    <loc>http://localhost:4000/%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/</loc>
     
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/</loc>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/about/</loc>
+    <lastmod>2019-02-24T00:00:00+09:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -60,6 +32,34 @@
   
   
   
+  <url>
+    <loc>http://localhost:4000/</loc>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/about/</loc>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -67,31 +67,31 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/tags/</loc>
+    <loc>http://localhost:4000/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://0.0.0.0:4000/tags/</loc>
+    <loc>http://localhost:4000/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://0.0.0.0:4000/tags/</loc>
+    <loc>http://localhost:4000/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://0.0.0.0:4000/tags/</loc>
+    <loc>http://localhost:4000/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://0.0.0.0:4000/tags/</loc>
+    <loc>http://localhost:4000/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
