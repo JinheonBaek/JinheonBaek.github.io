@@ -1,7 +1,7 @@
 ---
 layout: page
 type: about
-title: "Jinheon Baek"
+title: "백진헌 | Jinheon Baek"
 sitemap: true
 ---
 
