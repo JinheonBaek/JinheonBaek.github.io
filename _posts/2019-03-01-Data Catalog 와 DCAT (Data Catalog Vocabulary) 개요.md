@@ -45,3 +45,5 @@ DCAT 은 웹 상에 산재되어 있는 데이터 카탈로그 간 상호 운영
 ![Class-DCAT-Summary](/assets/images/DCAT/DCAT-summary-all-attributes.png)
 
 DCAT 은 위와 같은 다양한 장점을 제공해주고 있지만 **현재까지 완벽히 정의된 표준은 아니며 지속적으로 변화하고 있습니다.** 다만 다양한 데이터의 효율적 기술과 통합이라는 목표 아래에 더욱 더 발전하는 것을 보았을 때 미래에는 DCAT 표준을 이용하여 웹 상에 데이터를 접근할 수 있는 기대를 해볼 수 있겠습니다.
+
+[DCAT revised edition (Latest published version)](https://www.w3.org/TR/vocab-dcat-2/)
