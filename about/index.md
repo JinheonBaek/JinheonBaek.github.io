@@ -4,8 +4,9 @@ type: about
 title: "백진헌 | Jinheon Baek"
 sitemap: true
 ---
-
 <br>
+[CV (Curriculum Vitae)](https://1drv.ms/b/s!Aj5JerV8SMDyh4t6_19P6pq1obWwhw)
+{: style="text-align: center;"}
 
 # About Me
 Currently, I'm attending at Korea University in 4th year. Major is Computer Science and Enginerring, and take a Software Technology and Enterprise Program for Interdisciplinary Program. <br>
