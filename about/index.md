@@ -4,40 +4,51 @@ type: about
 title: "백진헌 | Jinheon Baek"
 sitemap: true
 ---
-<br>
+
 [CV (Curriculum Vitae)](https://1drv.ms/b/s!Aj5JerV8SMDyh4t6_19P6pq1obWwhw)
 {: style="text-align: center;"}
 
 # About Me
-Currently, I'm attending at Korea University in 4th year. Major is Computer Science and Enginerring, and take a Software Technology and Enterprise Program for Interdisciplinary Program. <br>
-My vision is a specialist for software research & development to make a better world. Also, I think philosophy is the source of life. For that reason, I want to be a engineer & researcher who embraces one's philosophy into code. <br>
-Although I enjoy using rapidly changed framework, I'm more focused on AI research in these days.
+Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning with Graph Neural Networks in these days.
+
+I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
+
+Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 engineers.
 
 ---
 
 # Research Interest
-* Data Mining
-* Machine Learning (Deep Learning)
-* Information System {Focus on Data}
-* Cloud Platform (Architecture)
+* Meta-Learning
+* Graph Neural Networks
+* Artificial Intellignece in Education
 
 ---
 
 # Eduation
+### KAIST (Korea Advanced Institute of Science and Technology)
+* M.S. student in Artificial Intelligence, Mar 2020 - Present.
+
 ### Korea University
-* Bachelor of Engineering in Computer Science and Engineering, Spring 2016 -
-* Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Fall 2017 -
-* **Total GPA of 4.38 / 4.5 (98.6 / 100)**
+* Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
+* Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
+* **Total GPA of 4.40 / 4.5 (98.9 / 100)**
+
+---
+
+# Preprints
+* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[arXiv]](https://arxiv.org/pdf/2004.05352.pdf)
 
 ---
 
 # Publication
+
 ### Domestic Journal (South Korea)
 * 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩하기 위한 방법론 / Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space", 정보과학회 컴퓨팅의 실제 논문지 (KIISE Transactions on Computing Practices, KTCP), Vol.25 No.1, pp.76-81, Jan 2019.
 * **백진헌**, 이다경, 홍채연, 안병태 "멀티미디어 유해 콘텐츠 차단을 위한 다중 기법", 융합정보논문지, Vol.7 No.6, pp.113-121, 2017.
 
 ### Domestic Conference (South Korea)
-* 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018. (포스터발표, 우수논문선정)
+* **백진헌**, 장광훈, 정소영, 박동현, 권기원, 강재우 "대학 내 학과 분석을 위한 학과 및 수업 임베딩", KCC 한국정보과학회 2019년 하계학술대회, Jun 26-28, 2019. (Oral)
+* 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018. (Poster, Best paper award)
 
 ---
 
