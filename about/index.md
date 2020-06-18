@@ -36,8 +36,7 @@ Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-b
 
 * Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
-* **Total GPA of 4.40 / 4.5 (98.9 / 100)**
-* **Major GPA of 4.48 / 4.5 (99.5 / 100)**
+* **Total GPA of 4.40 / 4.5 (98.9 / 100)** and **Major GPA of 4.48 / 4.5 (99.5 / 100)**
 
 ---
 
