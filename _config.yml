@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Daily & Tech Blog
-subtitle:
-description:
+title: Jinheon Baek
+subtitle: Technical Blog for Jinheon Baek
+description: Technical Blog for Jinheon Baek, that contains bio, education, and some posts about research on machie learning.
 author: Jinheon Baek
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: ko
+language: en
 date_format: '%Y-%m-%d'
 
 # Github Repository Setting
