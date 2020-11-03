@@ -48,6 +48,10 @@ My research interest is mainly on developing novel machine learning models and a
 
 * Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
 
+---
+
+You can see more details about me in [CV (Curriculum Vitae)](https://jinheonbaek.github.io/cv/cv.pdf).
+
 <!-- ### Domestic Journal & Conference
 
 * 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩하기 위한 방법론 / Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space", 정보과학회 컴퓨팅의 실제 논문지 (KIISE Transactions on Computing Practices, KTCP), Vol.25 No.1, pp.76-81, Jan 2019.
