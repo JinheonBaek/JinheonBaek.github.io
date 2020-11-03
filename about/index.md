@@ -5,7 +5,7 @@ title: "Jinheon Baek"
 sitemap: true
 ---
 
-[CV (Curriculum Vitae)](https://1drv.ms/b/s!Aj5JerV8SMDyh4t6_19P6pq1obWwhw)
+[CV (Curriculum Vitae)](https://jinheonbaek.github.io/cv/cv.pdf)
 {: style="text-align: center;"}
 
 ## About Me
@@ -20,9 +20,7 @@ Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-b
 
 ## Research Interest
 
-* Meta-Learning
-* Graph Neural Networks
-* Artificial Intellignece in Education
+My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge, and interactions between drugs with relational graphs.
 
 ---
 
@@ -36,32 +34,29 @@ Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-b
 
 * Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
-* **Total GPA of 4.40 / 4.5 (98.9 / 100)** and **Major GPA of 4.48 / 4.5 (99.5 / 100)**
-
----
-
-## Preprints
-
-* **Jinheon Baek**, Dong Bok Lee, Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", arXiv:2006.06648. [[arXiv]](https://arxiv.org/abs/2006.06648)
-* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[arXiv]](https://arxiv.org/pdf/2004.05352.pdf)
+* GPA: 4.40 / 4.50 (98.9 / 100)
 
 ---
 
 ## Publication
 
-### Domestic Journal (South Korea)
+### International Conference
+
+* **Jinheon Baek**, Dong Bok Lee, Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
+
+### Preprint
+
+* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
+
+<!-- ### Domestic Journal & Conference
 
 * 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩하기 위한 방법론 / Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space", 정보과학회 컴퓨팅의 실제 논문지 (KIISE Transactions on Computing Practices, KTCP), Vol.25 No.1, pp.76-81, Jan 2019.
 * **백진헌**, 이다경, 홍채연, 안병태 "멀티미디어 유해 콘텐츠 차단을 위한 다중 기법 / Multimodal approach for blocking obscene and violent contents", 융합정보논문지, Vol.7 No.6, pp.113-121, 2017.
 
-### Domestic Conference (South Korea)
-
 * **백진헌**, 장광훈, 정소영, 박동현, 권기원, 강재우 "대학 내 학과 분석을 위한 학과 및 수업 임베딩 / Embedding Academic Majors and Lectures for Analyzing Departments in University", KCC 한국정보과학회 2019년 하계학술대회, Jun 26-28, 2019.
-* 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론 / Embedding Food Ingredients based on Chemical Combination in Dense Vector Space", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018.
+* 박동현, 박용규, 장부루, **백진헌**, 강재우 "음식의 재료들을 고밀도 벡터 공간상 화학적 조합으로 임베딩 하기위한 방법론 / Embedding Food Ingredients based on Chemical Combination in Dense Vector Space", KCC 한국정보과학회 2018년 하계학술대회, Jun 20-22 2018. -->
 
----
-
-## Experiences
+<!-- ## Experiences
 
 * ### ETRI (Electronics and Telecommunications Research Institute), Daejeon, Korea
 
@@ -190,4 +185,4 @@ Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-b
 * ### First Prize in Microsoft Student Partner Korea (May 2017)
 
   * Global Summit Program Representative of Korean.
-  * Conducted a role as a technical ambassador of Korean Student Partners.
+  * Conducted a role as a technical ambassador of Korean Student Partners. -->
