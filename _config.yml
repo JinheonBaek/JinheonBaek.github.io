@@ -123,7 +123,7 @@ menu:
   home: /
   about: /about/
   categories: /categories/
-  archives: /archives/
+  # archives: /archives/
   # tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html

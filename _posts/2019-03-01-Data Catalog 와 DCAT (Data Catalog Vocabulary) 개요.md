@@ -3,8 +3,7 @@ title: Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요
 date: 2019-03-01
 description: 서로 다른 타입의 데이터가 호환될 수 있게 도와준 데이터 카탈로그와 DCAT 개요를 기술하였습니다.
 categories:
- - 기술
- - DCAT
+ - (Korean) 기술
 tags:
  - 기술
  - DCAT
