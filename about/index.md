@@ -14,7 +14,7 @@ Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https
 
 I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
 
-Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 engineers.
+Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people.
 
 ---
 
@@ -42,11 +42,19 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### International Conference
 
-* **Jinheon Baek**, Dong Bok Lee, Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
+* **Jinheon Baek***, MinKi Kang*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn)
+* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### Preprint
 
-* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
+* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
+
+### Domestic (Korean) Journal \& Conference
+
+* **Jinheon Baek**, Minki Kang, and Sung Ju Hwang. Graph Representation Learning with Attention-based Set Pooling, Conference of Korean Artificial Intelligence Association (CKAIA), 2020. **(Best Paper)**
+* **Jinheon Baek**, Gwanghoon Jang, Soyeong Jeong, Donghyeon Park, Kiwon Kwon, and Jaewoo Kang. Embedding Academic Majors and Lectures for Analyzing Departments in University, Korea Computer Congress (KCC), 2019. **(Oral Presentation)**
+* Donghyeon Park, Yonggyu Park, Buru Chang, **Jinheon Baek**, and Jaewoo Kang. Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space, Korea Computer Congress (KCC), 2018. **(Best Paper)**
+* **Jinheon Baek**, Dakyeong Lee, Chaeyeon Hong, and Byeongtae Ahn. Multimodal Approach for Blocking Obscene and Violent Contents, Journal of Convergence for Information Technology (JCIT), 7(6), 2017.
 
 ---
 
