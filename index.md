@@ -29,7 +29,7 @@ Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-b
 
 ---
 
-## Publication
+## Selected Publication
 
 ### International Conference
 
