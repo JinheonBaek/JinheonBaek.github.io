@@ -5,9 +5,6 @@ title: "Jinheon Baek"
 sitemap: true
 ---
 
-[CV (Curriculum Vitae)](https://jinheonbaek.github.io/cv/cv.pdf)
-{: style="text-align: center;"}
-
 ## About Me
 
 Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
@@ -15,12 +12,6 @@ Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https
 I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
 
 Also, I am an outside technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people.
-
----
-
-## Research Interest
-
-My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge, and interactions between drugs with relational graphs.
 
 ---
 
