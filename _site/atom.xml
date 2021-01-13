@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-13T20:15:44+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Jinheon Baek</title><subtitle>Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</subtitle><author><name>Jinheon Baek</name></author><entry><title type="html">Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요</title><link href="http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data-Catalog-%EC%99%80-DCAT-(Data-Catalog-Vocabulary)-%EA%B0%9C%EC%9A%94/" rel="alternate" type="text/html" title="Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요" /><published>2019-03-01T00:00:00+09:00</published><updated>2019-03-01T00:00:00+09:00</updated><id>http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data%20Catalog%20%EC%99%80%20DCAT%20(Data%20Catalog%20Vocabulary)%20%EA%B0%9C%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data-Catalog-%EC%99%80-DCAT-(Data-Catalog-Vocabulary)-%EA%B0%9C%EC%9A%94/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-13T21:12:03+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Jinheon Baek</title><subtitle>Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</subtitle><author><name>Jinheon Baek</name></author><entry><title type="html">Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)</title><link href="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/" rel="alternate" type="text/html" title="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/research/2020/12/06/Graph%20Extrapolation%20Network</id><content type="html" xml:base="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/">&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: Jinheon Baek, Dong Bok Lee, and Sung Ju Hwang.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conference&lt;/strong&gt;:  In Proceedings of Advances in Neural Information Processing System 33 proceedings (NeurIPS 2020).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: https://arxiv.org/abs/2006.06648&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: https://github.com/JinheonBaek/GEN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Many practical graph problems, such as knowledge graph construction and drug-drug interaction prediction, require to handle multi-relational graphs. However, handling real-world multi-relational graphs with Graph Neural Networks (GNNs) is often challenging due to their evolving nature, where new entities (nodes) can emerge over time. Moreover, newly emerged entities often have few links, which makes the learning even more difficult. Motivated by this challenge, we introduce a realistic problem of few-shot out-of-graph link prediction, where we not only predict the links between the seen and unseen nodes as in a conventional out-of-knowledge link prediction but also between the unseen nodes, with only few edges per node. We tackle this problem with a novel transductive meta-learning framework which we refer to as Graph Extrapolation Networks (GEN). GEN meta-learns both the node embedding network for inductive inference (seen-to-unseen) and the link prediction network for transductive inference (unseen-to-unseen). For transductive link prediction, we further propose a stochastic embedding layer to model uncertainty in the link prediction between unseen entities. We validate our model on multiple benchmark datasets for knowledge graph completion and drug-drug interaction prediction. The results show that our model significantly outperforms relevant baselines for out-of-graph link prediction tasks.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure1.png&quot; alt=&quot;Figure1&quot; title=&quot;Figure 1. Predicting missing links.&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While graphs contain a huge amount of knowledge, they are highly incomplete. Thus, automatic graph completion, which is known as link prediction (See Figure 1), is a practically important problem. However, despite recent successes on inferring missing links by learning embeddings of entities and their relations, the link prediction task for real-world graphs remains challenging (See Figure 2):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Evolving nature&lt;/strong&gt;: new entities can emerge over time.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Long-tail distribution&lt;/strong&gt;: most entities have few triplets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure2.png&quot; alt=&quot;Figure2&quot; title=&quot;Figure 2. (Left): Evolving nature. (Right): Long-tail distribution.&quot; width=&quot;90%&quot; height=&quot;90%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-definition&quot;&gt;Problem Definition&lt;/h2&gt;
+
+&lt;p&gt;To deal with challenges on graphs, we propose few-shot out-of-graph (OOG) link prediction (See Figure 3), whose goal is to predict links between seen and unseen, and even among unseen entities (evolving nature), with few links per entity (long-tail).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure3.png&quot; alt=&quot;Figure3&quot; title=&quot;Figure 3. An illustration of Out-of-Graph link prediction for emerging entities. Blue dotted arrows denote inferred relationships between seen and unseen entities, Red dotted arrows denote inferred relationships between unseen entities.&quot; width=&quot;60%&quot; height=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;method&quot;&gt;Method&lt;/h1&gt;
+
+&lt;h2 id=&quot;mete-learning-framework&quot;&gt;Mete-Learning Framework&lt;/h2&gt;
+
+&lt;p&gt;To tackle OOG link prediction, we propose a novel meta-learning framework. It meta-learns the node embeddings for unseen entities by simulating the unseen entities during training (See Figure 4, left), which is impossible for conventional learning, and extrapolates learned knowledge to real unseen entities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure4.png&quot; alt=&quot;Figure4&quot; title=&quot;Figure 4. Mete-learning makes the model generalize on real unseen entities.&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graph-extrapolation-network&quot;&gt;Graph Extrapolation Network&lt;/h2&gt;
+
+&lt;p&gt;We train the proposed Graph Extrapolation Network (GEN) under the our meta-learning framework, with an inductive scheme for predicting seen to unseen relations and a transductive scheme one top of the inductive for predicting both seen to unseen and unseen to unseen relations (Figure 5, right).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure5.png&quot; alt=&quot;Figure5&quot; title=&quot;Figure 5. (Left) Overall algorithm. (Right) Meta-learned Graph Extrapolation Network.&quot; width=&quot;90%&quot; height=&quot;90%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While our meta-learning framework with GEN generalizes to the unseen entities, due to the intrinsic unreliability of few-shot OOG link prediction, there could be high uncertainties on unseen entities. To this end, we model the stochasticity on the unseen entity embeddings by approximating their posterior distribution:
+&lt;img src=&quot;/assets/images/GEN/Figure5-1.png&quot; alt=&quot;Figure5.1&quot; width=&quot;40%&quot; height=&quot;40%&quot; /&gt;
+where mean and variance is obtained from transductive GENs (Please see the main paper for details).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;h2 id=&quot;main-results&quot;&gt;Main Results&lt;/h2&gt;
+
+&lt;p&gt;Transductive-GEN (T-GEN) outperforms all baselines on out-of-graph link prediction tasks (See Table1, Table 2).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Table1.png&quot; alt=&quot;Table1&quot; title=&quot;Table 1. OOG link prediction results on knowledge graph completion.&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Table2.png&quot; alt=&quot;Table2&quot; title=&quot;Table 2. OOG link prediction results on Drug-Drug Interaction prediction.&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;seen-to-unseen-and-unseen-to-unseen-results&quot;&gt;Seen to Unseen and Unseen to Unseen Results&lt;/h2&gt;
+
+&lt;p&gt;Transductive-GEN (T-GEN) obtains significant performance gain on the unseen to unseen link prediction case (Figure 6).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure6.png&quot; alt=&quot;Figure6&quot; title=&quot;Figure 6. Results of seen to unseen(S/U), unseen to unseen(U/U), and total link prediction of Inductive GEN (I-GEN) and Transductive GEN (T-GEN).&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visualization-results&quot;&gt;Visualization Results&lt;/h2&gt;
+
+&lt;p&gt;The reason why GEN generalizes well to the link prediction with unseen entities is because GEN embeds the unseen entities on the manifold of seen entities while baseline embeds off-manifold (Figure 7).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GEN/Figure7.png&quot; alt=&quot;Figure7&quot; title=&quot;Figure 7. (Left): Seen-to-Unseen baseline (LAN). (Center): Seen-to-Seen baseline, retrained from scratch (TransE). (Right) Ours (T-GEN).&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;We formally defined a realistic problem of the few-shot out-of-graph (OOG) link prediction task, which considers link prediction not only between seen to unseen (or emerging) entities but also between unseen entities for multi-relational graphs, where each entity comes with only few associative triplets to train. To this end, we proposed a novel meta-learning framework for OOG link prediction, which we refer to as Graph Extrapolation Network (GEN). Under the defined K-shot learning setting, GENs learn to extrapolate the knowledge of a given graph to unseen entities, with a stochastic transductive layer to further propagate the knowledge between the unseen entities and to model uncertainty in the link prediction. We validated the OOG link prediction performance of GENs on five benchmark datasets, on which proposed model largely outperformed the relevant baselines.&lt;/p&gt;</content><author><name>Jinheon Baek</name></author><category term="Research" /><category term="Research" /><category term="Deep Learning" /><category term="Graph Extrapolation Network" /><category term="Extrapolation" /><category term="Knowledge Graph" /><category term="Meta Learning" /><category term="Few-shot Learning" /><category term="Graph Neural Network" /><category term="Link Prediction" /><category term="Out of Graph" /><summary type="html">About</summary></entry><entry><title type="html">Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요</title><link href="http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data-Catalog-%EC%99%80-DCAT-(Data-Catalog-Vocabulary)-%EA%B0%9C%EC%9A%94/" rel="alternate" type="text/html" title="Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요" /><published>2019-03-01T00:00:00+09:00</published><updated>2019-03-01T00:00:00+09:00</updated><id>http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data%20Catalog%20%EC%99%80%20DCAT%20(Data%20Catalog%20Vocabulary)%20%EA%B0%9C%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data-Catalog-%EC%99%80-DCAT-(Data-Catalog-Vocabulary)-%EA%B0%9C%EC%9A%94/">&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 &lt;p&gt;Semantic Web 이라는 용어를 친구를 통해 또는 수업시간에 종종 듣곤 했지만, 해당 주제를 가지고 개설되는 교내 수업이 별로 없을 뿐더러 이 분야를 연구하시는 교수님도 많지 않아 접할 수 있는 기회가 많지 않았습니다. 하지만 &lt;strong&gt;서로 다른 속성을 가진 데이터를 유기적으로 결합시킨다면 데이터의 활용도는 더욱 증가할것이며, 해당 주제를 가지고 연구하는 분야 중 하나가 Semantic Data Map&lt;/strong&gt; 이라는 것을 알게 되었습니다. 뿐만 아니라 해당 주제 내에서 서로 다른 데이터를 기술할 수 있게끔 도와주는 &lt;strong&gt;데이터 카탈로그&lt;/strong&gt;와, 데이터 카탈로그의 활용을 위해 등장한 &lt;strong&gt;DCAT (Data Catalog Vocabulary) 표준&lt;/strong&gt; 역시 알게 되었습니다.&lt;/p&gt;
 
 &lt;p&gt;이 글은 데이터 카탈로그가 필요한 이유를 서두로 시작하여 데이터 카탈로그 사이의 상호 운용성 지원을 위한 RDF(Resource Description Framework) 어휘를 제공하는 DCAT 모델에 대해 설명하겠습니다.&lt;/p&gt;
@@ -90,9 +177,7 @@
 
 &lt;p&gt;따라서 각 개발자들은 이미지만 잘 빌드하면 이를 배포하는 엔지니어는 테스트 후 자원만 잘 할당해주면 되는 것입니다. 기존처럼 개발 환경과 운영 환경이 서로 일치하지 않아 커뮤니케이션 하는 비용이 줄어들게 된 것이죠.&lt;/p&gt;
 
-&lt;p&gt;저는 앞서 언급한 것처럼 Docker 라는 기술을 최근에 제대로 알게 되었습니다. 하지만 Docker 이미지만 가지고 어떤 환경이든 쉽게 꾸릴 수 있을 뿐만 아니라, Microservice 아키텍쳐를 구성하기에 너무도 편리하다는 인식이 강하게 바뀌어서 각종 개발 뿐만 아니라 연구에도 Docker Image 하나로 어떠한 작업이든지 해결하려고 하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;더욱 더 자세한 Docker 사용법은 이후 포스트에서 언급해보려고 합니다. 더욱 더 아름다운 Docker를 살피려면 이후 포스트를 확인해주세요 :)&lt;/p&gt;</content><author><name>Jinheon Baek</name></author><category term="(Korean) 기술" /><category term="기술," /><category term="Docker" /><summary type="html">Docker ? 2013년 3월에 출시된 오픈소스 컨테이너 프로젝트입니다. Docker를 너무나도 늦게 접해서 출시 이후 탄생 배경과 발전 과정을 잘 모르지만, 사용하면서 다양한 환경의 일치라는 장점 때문인지 Docker가 매 순간 경이롭다고 느끼고 있습니다.</summary></entry><entry><title type="html">블로그를 시작하게 된 이유</title><link href="http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="블로그를 시작하게 된 이유" /><published>2019-02-24T00:00:00+09:00</published><updated>2019-02-24T00:00:00+09:00</updated><id>http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C%20%EB%90%9C%20%EC%9D%B4%EC%9C%A0</id><content type="html" xml:base="http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/">&lt;h1 id=&quot;블로그-시작&quot;&gt;블로그 시작&lt;/h1&gt;
+&lt;p&gt;저는 앞서 언급한 것처럼 Docker 라는 기술을 최근에 제대로 알게 되었습니다. 하지만 Docker 이미지만 가지고 어떤 환경이든 쉽게 꾸릴 수 있을 뿐만 아니라, Microservice 아키텍쳐를 구성하기에 너무도 편리하다는 인식이 강하게 바뀌어서 각종 개발 뿐만 아니라 연구에도 Docker Image 하나로 어떠한 작업이든지 해결하려고 하고 있습니다.&lt;/p&gt;</content><author><name>Jinheon Baek</name></author><category term="(Korean) 기술" /><category term="기술," /><category term="Docker" /><summary type="html">Docker ? 2013년 3월에 출시된 오픈소스 컨테이너 프로젝트입니다. Docker를 너무나도 늦게 접해서 출시 이후 탄생 배경과 발전 과정을 잘 모르지만, 사용하면서 다양한 환경의 일치라는 장점 때문인지 Docker가 매 순간 경이롭다고 느끼고 있습니다.</summary></entry><entry><title type="html">블로그를 시작하게 된 이유</title><link href="http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/" rel="alternate" type="text/html" title="블로그를 시작하게 된 이유" /><published>2019-02-24T00:00:00+09:00</published><updated>2019-02-24T00:00:00+09:00</updated><id>http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C%20%EB%90%9C%20%EC%9D%B4%EC%9C%A0</id><content type="html" xml:base="http://localhost:4000/(korean)%20%EC%9D%BC%EC%83%81/2019/02/24/%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0/">&lt;h1 id=&quot;블로그-시작&quot;&gt;블로그 시작&lt;/h1&gt;
 
 &lt;p&gt;이전부터 일상을 기록할 공간, 그리고 기술을 정리할 공간이 필요하다고 느껴왔습니다.&lt;/p&gt;
 

@@ -1,0 +1,1007 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Research,Deep Learning,Graph Extrapolation Network,Extrapolation,Knowledge Graph,Meta Learning,Few-shot Learning,Graph Neural Network,Link Prediction,Out of Graph," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jinheon Baek" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Summary of the paper: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction, which is accepted to NeurIPS 2020.">
+<meta name="keywords" content="Research, Deep Learning, Graph Extrapolation Network, Extrapolation, Knowledge Graph, Meta Learning, Few-shot Learning, Graph Neural Network, Link Prediction, Out of Graph">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)">
+<meta property="og:url" content="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/">
+<meta property="og:site_name" content="Jinheon Baek">
+<meta property="og:description" content="Summary of the paper: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction, which is accepted to NeurIPS 2020.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/GEN/Figure1.png">
+<meta property="og:image" content="/assets/images/GEN/Figure2.png">
+<meta property="og:image" content="/assets/images/GEN/Figure3.png">
+<meta property="og:image" content="/assets/images/GEN/Figure4.png">
+<meta property="og:image" content="/assets/images/GEN/Figure5.png">
+<meta property="og:image" content="/assets/images/GEN/Figure5-1.png">
+<meta property="og:image" content="/assets/images/GEN/Table1.png">
+<meta property="og:image" content="/assets/images/GEN/Table2.png">
+<meta property="og:image" content="/assets/images/GEN/Figure6.png">
+<meta property="og:image" content="/assets/images/GEN/Figure7.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)">
+<meta name="twitter:description" content="Summary of the paper: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction, which is accepted to NeurIPS 2020.">
+<meta name="twitter:image" content="/assets/images/GEN/Figure1.png">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/"/>
+
+
+
+
+
+  <title>Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020) | Jinheon Baek</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jinheon Baek</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">A first-year master student in the Graduate School of AI at KAIST.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+<div id="posts" class="posts-expand">
+  
+  
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jinheon Baek">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/assets/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jinheon Baek">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-12-06T00:00:00+09:00">
+                2020-12-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/Research" itemprop="url" rel="index">
+                    <span itemprop="name">Research</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/research/2020/12/06/Graph-Extrapolation-Network/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/research/2020/12/06/Graph-Extrapolation-Network/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+            
+                <div class="post-description">
+                    Summary of the paper: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction, which is accepted to NeurIPS 2020.
+                </div>
+            
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 id="about">About</h1>
+
+<ul>
+  <li><strong>Title</strong>: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction.</li>
+  <li><strong>Author</strong>: Jinheon Baek, Dong Bok Lee, and Sung Ju Hwang.</li>
+  <li><strong>Conference</strong>:  In Proceedings of Advances in Neural Information Processing System 33 proceedings (NeurIPS 2020).</li>
+  <li><strong>Paper</strong>: https://arxiv.org/abs/2006.06648</li>
+  <li><strong>Code</strong>: https://github.com/JinheonBaek/GEN</li>
+</ul>
+
+<hr />
+
+<h1 id="abstract">Abstract</h1>
+
+<p>Many practical graph problems, such as knowledge graph construction and drug-drug interaction prediction, require to handle multi-relational graphs. However, handling real-world multi-relational graphs with Graph Neural Networks (GNNs) is often challenging due to their evolving nature, where new entities (nodes) can emerge over time. Moreover, newly emerged entities often have few links, which makes the learning even more difficult. Motivated by this challenge, we introduce a realistic problem of few-shot out-of-graph link prediction, where we not only predict the links between the seen and unseen nodes as in a conventional out-of-knowledge link prediction but also between the unseen nodes, with only few edges per node. We tackle this problem with a novel transductive meta-learning framework which we refer to as Graph Extrapolation Networks (GEN). GEN meta-learns both the node embedding network for inductive inference (seen-to-unseen) and the link prediction network for transductive inference (unseen-to-unseen). For transductive link prediction, we further propose a stochastic embedding layer to model uncertainty in the link prediction between unseen entities. We validate our model on multiple benchmark datasets for knowledge graph completion and drug-drug interaction prediction. The results show that our model significantly outperforms relevant baselines for out-of-graph link prediction tasks.</p>
+
+<hr />
+
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="motivation">Motivation</h2>
+
+<p><img src="/assets/images/GEN/Figure1.png" alt="Figure1" title="Figure 1. Predicting missing links." width="50%" height="50%" /></p>
+
+<p>While graphs contain a huge amount of knowledge, they are highly incomplete. Thus, automatic graph completion, which is known as link prediction (See Figure 1), is a practically important problem. However, despite recent successes on inferring missing links by learning embeddings of entities and their relations, the link prediction task for real-world graphs remains challenging (See Figure 2):</p>
+
+<ul>
+  <li><strong>Evolving nature</strong>: new entities can emerge over time.</li>
+  <li><strong>Long-tail distribution</strong>: most entities have few triplets.</li>
+</ul>
+
+<p><img src="/assets/images/GEN/Figure2.png" alt="Figure2" title="Figure 2. (Left): Evolving nature. (Right): Long-tail distribution." width="90%" height="90%" /></p>
+
+<h2 id="problem-definition">Problem Definition</h2>
+
+<p>To deal with challenges on graphs, we propose few-shot out-of-graph (OOG) link prediction (See Figure 3), whose goal is to predict links between seen and unseen, and even among unseen entities (evolving nature), with few links per entity (long-tail).</p>
+
+<p><img src="/assets/images/GEN/Figure3.png" alt="Figure3" title="Figure 3. An illustration of Out-of-Graph link prediction for emerging entities. Blue dotted arrows denote inferred relationships between seen and unseen entities, Red dotted arrows denote inferred relationships between unseen entities." width="60%" height="60%" /></p>
+
+<hr />
+
+<h1 id="method">Method</h1>
+
+<h2 id="mete-learning-framework">Mete-Learning Framework</h2>
+
+<p>To tackle OOG link prediction, we propose a novel meta-learning framework. It meta-learns the node embeddings for unseen entities by simulating the unseen entities during training (See Figure 4, left), which is impossible for conventional learning, and extrapolates learned knowledge to real unseen entities.</p>
+
+<p><img src="/assets/images/GEN/Figure4.png" alt="Figure4" title="Figure 4. Mete-learning makes the model generalize on real unseen entities." width="75%" height="75%" /></p>
+
+<h2 id="graph-extrapolation-network">Graph Extrapolation Network</h2>
+
+<p>We train the proposed Graph Extrapolation Network (GEN) under the our meta-learning framework, with an inductive scheme for predicting seen to unseen relations and a transductive scheme one top of the inductive for predicting both seen to unseen and unseen to unseen relations (Figure 5, right).</p>
+
+<p><img src="/assets/images/GEN/Figure5.png" alt="Figure5" title="Figure 5. (Left) Overall algorithm. (Right) Meta-learned Graph Extrapolation Network." width="90%" height="90%" /></p>
+
+<p>While our meta-learning framework with GEN generalizes to the unseen entities, due to the intrinsic unreliability of few-shot OOG link prediction, there could be high uncertainties on unseen entities. To this end, we model the stochasticity on the unseen entity embeddings by approximating their posterior distribution:
+<img src="/assets/images/GEN/Figure5-1.png" alt="Figure5.1" width="40%" height="40%" />
+where mean and variance is obtained from transductive GENs (Please see the main paper for details).</p>
+
+<hr />
+
+<h1 id="results">Results</h1>
+
+<h2 id="main-results">Main Results</h2>
+
+<p>Transductive-GEN (T-GEN) outperforms all baselines on out-of-graph link prediction tasks (See Table1, Table 2).</p>
+
+<p><img src="/assets/images/GEN/Table1.png" alt="Table1" title="Table 1. OOG link prediction results on knowledge graph completion." width="75%" height="75%" /></p>
+
+<p><img src="/assets/images/GEN/Table2.png" alt="Table2" title="Table 2. OOG link prediction results on Drug-Drug Interaction prediction." width="75%" height="75%" /></p>
+
+<h2 id="seen-to-unseen-and-unseen-to-unseen-results">Seen to Unseen and Unseen to Unseen Results</h2>
+
+<p>Transductive-GEN (T-GEN) obtains significant performance gain on the unseen to unseen link prediction case (Figure 6).</p>
+
+<p><img src="/assets/images/GEN/Figure6.png" alt="Figure6" title="Figure 6. Results of seen to unseen(S/U), unseen to unseen(U/U), and total link prediction of Inductive GEN (I-GEN) and Transductive GEN (T-GEN)." width="75%" height="75%" /></p>
+
+<h2 id="visualization-results">Visualization Results</h2>
+
+<p>The reason why GEN generalizes well to the link prediction with unseen entities is because GEN embeds the unseen entities on the manifold of seen entities while baseline embeds off-manifold (Figure 7).</p>
+
+<p><img src="/assets/images/GEN/Figure7.png" alt="Figure7" title="Figure 7. (Left): Seen-to-Unseen baseline (LAN). (Center): Seen-to-Seen baseline, retrained from scratch (TransE). (Right) Ours (T-GEN)." width="75%" height="75%" /></p>
+
+<hr />
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>We formally defined a realistic problem of the few-shot out-of-graph (OOG) link prediction task, which considers link prediction not only between seen to unseen (or emerging) entities but also between unseen entities for multi-relational graphs, where each entity comes with only few associative triplets to train. To this end, we proposed a novel meta-learning framework for OOG link prediction, which we refer to as Graph Extrapolation Network (GEN). Under the defined K-shot learning setting, GENs learn to extrapolate the knowledge of a given graph to unseen entities, with a stochastic transductive layer to further propagate the knowledge between the unseen entities and to model uncertainty in the link prediction. We validated the OOG link prediction performance of GENs on five benchmark datasets, on which proposed model largely outperformed the relevant baselines.</p>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            
+            <a href="/tag/#/Research" rel="tag"># Research</a>
+          
+            
+            <a href="/tag/#/Deep%20Learning" rel="tag"># Deep Learning</a>
+          
+            
+            <a href="/tag/#/Graph%20Extrapolation%20Network" rel="tag"># Graph Extrapolation Network</a>
+          
+            
+            <a href="/tag/#/Extrapolation" rel="tag"># Extrapolation</a>
+          
+            
+            <a href="/tag/#/Knowledge%20Graph" rel="tag"># Knowledge Graph</a>
+          
+            
+            <a href="/tag/#/Meta%20Learning" rel="tag"># Meta Learning</a>
+          
+            
+            <a href="/tag/#/Few-shot%20Learning" rel="tag"># Few-shot Learning</a>
+          
+            
+            <a href="/tag/#/Graph%20Neural%20Network" rel="tag"># Graph Neural Network</a>
+          
+            
+            <a href="/tag/#/Link%20Prediction" rel="tag"># Link Prediction</a>
+          
+            
+            <a href="/tag/#/Out%20of%20Graph" rel="tag"># Out of Graph</a>
+          
+        </div>
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+        <div class="post-nav" id="post-nav-id">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/(korean)%20%EA%B8%B0%EC%88%A0/2019/03/01/Data-Catalog-%EC%99%80-DCAT-(Data-Catalog-Vocabulary)-%EA%B0%9C%EC%9A%94/" rel="prev" title="Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요">
+                Data Catalog 와 DCAT (Data Catalog Vocabulary) 개요 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+      
+
+      
+    </footer>
+  </article>
+
+  <div class="post-spread">
+    
+  </div>
+</div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        
+        
+        
+
+
+
+
+
+
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/assets/images/avatar.jpeg"
+               alt="Jinheon Baek" />
+          <p class="site-author-name" itemprop="name">Jinheon Baek</p>
+           
+              <p class="site-description motion-element" itemprop="description">Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+        
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://github.com/JinheonBaek" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/JinheonBaek" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+            
+              <div class="post-toc-content">
+    <ol class=nav>
+      <li class="nav-item nav-level-1"> <a class="nav-link" href="#about"> <span class="nav-number">1</span> <span class="nav-text">About</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#abstract"> <span class="nav-number">2</span> <span class="nav-text">Abstract</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#introduction"> <span class="nav-number">3</span> <span class="nav-text">Introduction</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#motivation"> <span class="nav-number">3.1</span> <span class="nav-text">Motivation</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#problem-definition"> <span class="nav-number">3.2</span> <span class="nav-text">Problem Definition</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#method"> <span class="nav-number">4</span> <span class="nav-text">Method</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#mete-learning-framework"> <span class="nav-number">4.1</span> <span class="nav-text">Mete-Learning Framework</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#graph-extrapolation-network"> <span class="nav-number">4.2</span> <span class="nav-text">Graph Extrapolation Network</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#results"> <span class="nav-number">5</span> <span class="nav-text">Results</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#main-results"> <span class="nav-number">5.1</span> <span class="nav-text">Main Results</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#seen-to-unseen-and-unseen-to-unseen-results"> <span class="nav-number">5.2</span> <span class="nav-text">Seen to Unseen and Unseen to Unseen Results</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#visualization-results"> <span class="nav-number">5.3</span> <span class="nav-text">Visualization Results</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#conclusion"> <span class="nav-number">6</span> <span class="nav-text">Conclusion</span> </a> </li>
+    </ol>
+  </div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jinheon Baek</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://jinheonbaek.disqus.com/count.js" async></script>
+    
+
+    
+      
+      <script type="text/javascript">
+          var disqus_config = function () {
+              this.page.url = 'http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/';
+              this.page.identifier = '/research/2020/12/06/Graph-Extrapolation-Network/';
+              this.page.title = 'Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)';
+          };
+          var d = document, s = d.createElement('script');
+          s.src = 'https://jinheonbaek.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', '' + +new Date());
+          (d.head || d.body).appendChild(s);
+      </script>
+      
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
