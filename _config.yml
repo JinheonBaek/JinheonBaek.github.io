@@ -34,6 +34,9 @@ paginate: 10
   #paginate: 10
   #paginate_path: "/page:num/"
 
+# Category List
+category_list: [ research, (Korean) 기술, (Korean) 일상 ]
+
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "vendor"]
 
