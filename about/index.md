@@ -49,7 +49,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 * Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
 
-### Domestic (Korean) Journal \& Conference
+### Domestic (Korean) Journal & Conference
 
 * **Jinheon Baek**, Minki Kang, and Sung Ju Hwang. Graph Representation Learning with Attention-based Set Pooling, Conference of Korean Artificial Intelligence Association (CKAIA), 2020. **(Best Paper)**
 * **Jinheon Baek**, Gwanghoon Jang, Soyeong Jeong, Donghyeon Park, Kiwon Kwon, and Jaewoo Kang. Embedding Academic Majors and Lectures for Analyzing Departments in University, Korea Computer Congress (KCC), 2019. **(Oral Presentation)**
