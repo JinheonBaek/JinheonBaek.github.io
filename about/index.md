@@ -42,7 +42,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### International Conference
 
-* **Jinheon Baek***, MinKi Kang*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn)
 * **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### Preprint
