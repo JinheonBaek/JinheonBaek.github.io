@@ -10,7 +10,7 @@ sitemap: true
 
 ## About Me
 
-Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning with Graph Neural Networks in these days.
+Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
 
 I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
 
