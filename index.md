@@ -33,12 +33,12 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 
 ### International Conference
 
-* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT)
 * **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
-### Preprint
+### International Journal
 
-* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", arXiv:2004.05352. [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
+* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021 (in press). [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
 
 ---
 
