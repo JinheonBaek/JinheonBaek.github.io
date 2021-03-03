@@ -31,14 +31,18 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 
 ## Selected Publication
 
+### Preprint
+
+* Wonyong Jeong\*, Hayeon Lee\*, Gun Park\*, Eunyoung Hyung, **Jinheon Baek**, and Sung Ju Hwang "Task-Adaptive Neural Network Retrieval with Meta-Contrastive Learning", arXiv:2103.01495. [[paper]](https://arxiv.org/abs/2103.01495) (\*: equal contribution)
+
 ### International Conference
 
-* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
 * **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### International Journal
 
-* Hyunjae Kim, Yookyung Koh, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021 (in press). [[paper]](https://arxiv.org/pdf/2004.05352.pdf)
+* Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021 (in press). [[paper]](https://arxiv.org/pdf/2004.05352.pdf) (\*: equal contribution)
 
 ---
 
