@@ -7,11 +7,7 @@ sitemap: true
 
 ## About Me
 
-Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
-
-I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
-
-Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people.
+Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs. Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea.
 
 ---
 
@@ -20,12 +16,13 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 ### KAIST (Korea Advanced Institute of Science and Technology)
 
 * M.S. student in Artificial Intelligence, Mar 2020 - Present.
+* GPA: 4.22 / 4.30 (99.1 / 100)
 
 ### Korea University
 
 * Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
-* GPA: 4.40 / 4.50 (98.9 / 100)
+* GPA: 4.40 / 4.50 (98.9 / 100), GPA of Computer Science: 4.48 / 4.50 (99.5 / 100)
 
 ---
 

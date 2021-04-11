@@ -10,7 +10,9 @@ sitemap: true
 
 ## About Me
 
-Hi, I'm an M.S. student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
+![](https://jinheonbaek.github.io/images/1.JPG)  | ![](https://jinheonbaek.github.io/images/4.jpg)
+
+Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
 
 I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
 
@@ -22,6 +24,8 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 
 My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge, and interactions between drugs with relational graphs.
 
+<!-- Prior to research on graphs, I also worked on artificial intelligence for education. -->
+
 ---
 
 ## Eduation
@@ -29,12 +33,13 @@ My research interest is mainly on developing novel machine learning models and a
 ### KAIST (Korea Advanced Institute of Science and Technology)
 
 * M.S. student in Artificial Intelligence, Mar 2020 - Present.
+* GPA: 4.22 / 4.30 (99.1 / 100)
 
 ### Korea University
 
 * Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
-* GPA: 4.40 / 4.50 (98.9 / 100)
+* GPA: 4.40 / 4.50 (98.9 / 100), GPA of Computer Science: 4.48 / 4.50 (99.5 / 100)
 
 ---
 
@@ -55,6 +60,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Domestic (Korean) Journal & Conference
 
+* **Jinheon Baek**, Hayeon Kim, and Kiwon Kwon. Artificial Intelligence-Based High School Course and University Major Recommendation System for Course-Related Career Exploration, KIPS Transactions on Software and Data Engineering (KTSDE), 2021.
 * **Jinheon Baek**, Minki Kang, and Sung Ju Hwang. Graph Representation Learning with Attention-based Set Pooling, Conference of Korean Artificial Intelligence Association (CKAIA), 2020. **(Best Paper)**
 * **Jinheon Baek**, Gwanghoon Jang, Soyeong Jeong, Donghyeon Park, Kiwon Kwon, and Jaewoo Kang. Embedding Academic Majors and Lectures for Analyzing Departments in University, Korea Computer Congress (KCC), 2019. **(Oral Presentation)**
 * Donghyeon Park, Yonggyu Park, Buru Chang, **Jinheon Baek**, and Jaewoo Kang. Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space, Korea Computer Congress (KCC), 2018. **(Best Paper)**
