@@ -51,16 +51,16 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Conference
 
-* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
-* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", International Conference on Learning Representation **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
+* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", Conference on Neural Information Processing System **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### Journal
 
-* Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021. [[paper]](https://www.sciencedirect.com/science/article/pii/S089360802100068X#!) (\*: equal contribution)
+* Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", **Neural Networks, 2021**. [[paper]](https://www.sciencedirect.com/science/article/pii/S089360802100068X#!) (\*: equal contribution)
 
 ### Workshop
 
-* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park "Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation", Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics (SDP@NAACL), 2021 (to appear).
+* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park "Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation", Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021** (to appear). **(Oral Presentation)**
 
 ### Domestic (Korean) Journal & Conference
 
@@ -74,8 +74,8 @@ My research interest is mainly on developing novel machine learning models and a
 
 ## Academic Services
 
-* Neural Information Processing Systems (NeurIPS), 2021
-* International Conference on Machine Learning (ICML), 2021
+* Neural Information Processing Systems (**NeurIPS**), 2021
+* International Conference on Machine Learning (**ICML**), 2021
 
 ---
 
