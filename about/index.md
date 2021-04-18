@@ -39,7 +39,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 * Bachelor of Science in Computer Science and Engineering, Mar 2016 - Feb 2020.
 * Bachelor of Engineering in Software Technology and Enterprise Program (Interdisciplinary Program), Aug 2017 - Feb 2020.
-* GPA: 4.40 / 4.50 (98.9 / 100), GPA of Computer Science: 4.48 / 4.50 (99.5 / 100)
+* GPA: 4.40 / 4.50 (98.9 / 100), GPA of Computer Science and Engineering: 4.48 / 4.50 (99.5 / 100)
 
 ---
 
@@ -49,14 +49,18 @@ My research interest is mainly on developing novel machine learning models and a
 
 * Wonyong Jeong\*, Hayeon Lee\*, Gun Park\*, Eunyoung Hyung, **Jinheon Baek**, and Sung Ju Hwang "Task-Adaptive Neural Network Retrieval with Meta-Contrastive Learning", arXiv:2103.01495. [[paper]](https://arxiv.org/abs/2103.01495) (\*: equal contribution)
 
-### International Conference
+### Conference
 
 * **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang "Accurate Learning of Graph Representations with Graph Multiset Pooling", ICLR 2021. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
 * **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction", NeurIPS 2020. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
-### International Journal
+### Journal
 
-* Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021 (in press). [[paper]](https://arxiv.org/pdf/2004.05352.pdf) (\*: equal contribution)
+* Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang "Exploring The Spatial Reasoning Ability of Neural Models in Human IQ Tests", Neural Networks, 2021. [[paper]](https://www.sciencedirect.com/science/article/pii/S089360802100068X#!) (\*: equal contribution)
+
+### Workshop
+
+* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park "Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation", Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics (SDP@NAACL), 2021 (to appear).
 
 ### Domestic (Korean) Journal & Conference
 
@@ -65,6 +69,13 @@ My research interest is mainly on developing novel machine learning models and a
 * **Jinheon Baek**, Gwanghoon Jang, Soyeong Jeong, Donghyeon Park, Kiwon Kwon, and Jaewoo Kang. Embedding Academic Majors and Lectures for Analyzing Departments in University, Korea Computer Congress (KCC), 2019. **(Oral Presentation)**
 * Donghyeon Park, Yonggyu Park, Buru Chang, **Jinheon Baek**, and Jaewoo Kang. Embedding Food Ingredients Based on Chemical Combination in Dense Vector Space, Korea Computer Congress (KCC), 2018. **(Best Paper)**
 * **Jinheon Baek**, Dakyeong Lee, Chaeyeon Hong, and Byeongtae Ahn. Multimodal Approach for Blocking Obscene and Violent Contents, Journal of Convergence for Information Technology (JCIT), 7(6), 2017.
+
+---
+
+## Academic Services
+
+* Neural Information Processing Systems (NeurIPS), 2021
+* International Conference on Machine Learning (ICML), 2021
 
 ---
 
