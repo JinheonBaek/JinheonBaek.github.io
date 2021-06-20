@@ -21,7 +21,7 @@ use_math: true
 # About
 
 * **Title**: Accurate Learning of Graph Representations with Graph Multiset Pooling.
-* **Author**: Jinheon Baek*, Minki Kang*, Sung Ju Hwang. (*: equal contribution)
+* **Author**: Jinheon Baek\*, Minki Kang\*, Sung Ju Hwang. (*: equal contribution)
 * **Conference**:  International Conference on Learning Representations (ICLR 2020).
 * **Paper**: https://openreview.net/forum?id=JHcqXGaqiGn
 * **Code**: https://github.com/JinheonBaek/GMT
