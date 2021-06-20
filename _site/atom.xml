@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-18T19:54:46+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Jinheon Baek</title><subtitle>Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</subtitle><author><name>Jinheon Baek</name></author><entry><title type="html">Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)</title><link href="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/" rel="alternate" type="text/html" title="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/research/2020/12/06/Graph%20Extrapolation%20Network</id><content type="html" xml:base="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/">&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-20T17:11:05+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Jinheon Baek</title><subtitle>Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</subtitle><author><name>Jinheon Baek</name></author><entry><title type="html">Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)</title><link href="http://localhost:4000/research/2021/05/04/Graph-Multiset-Transformer/" rel="alternate" type="text/html" title="Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)" /><published>2021-05-04T00:00:00+09:00</published><updated>2021-05-04T00:00:00+09:00</updated><id>http://localhost:4000/research/2021/05/04/Graph%20Multiset%20Transformer</id><content type="html" xml:base="http://localhost:4000/research/2021/05/04/Graph-Multiset-Transformer/">&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: Accurate Learning of Graph Representations with Graph Multiset Pooling.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: Jinheon Baek&lt;em&gt;, Minki Kang&lt;/em&gt;, Sung Ju Hwang. (*: equal contribution)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conference&lt;/strong&gt;:  International Conference on Learning Representations (ICLR 2020).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: https://openreview.net/forum?id=JHcqXGaqiGn&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: https://github.com/JinheonBaek/GMT&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: We propose a novel graph pooling method for graph representation learning, which considers a multiset scheme with attention-based transformer operations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Graph neural networks have been widely used on modeling graph data, achieving impressive results on node classification and link prediction tasks. Yet, obtaining an accurate representation for a graph further requires a pooling function that maps a set of node representations into a compact form. A simple sum or average over all node representations considers all node features equally without consideration of their task relevance, and any structural dependencies among them. Recently proposed hierarchical graph pooling methods, on the other hand, may yield the same representation for two different graphs that are distinguished by the Weisfeiler-Lehman test, as they suboptimally preserve information from the node features. To tackle these limitations of existing graph pooling methods, we first formulate the graph pooling problem as a multiset encoding problem with auxiliary information about the graph structure, and propose a Graph Multiset Transformer (GMT) which is a multi-head attention based global pooling layer that captures the interaction between nodes according to their structural dependencies. We show that GMT satisfies both injectiveness and permutation invariance, such that it is at most as powerful as the Weisfeiler-Lehman graph isomorphism test. Moreover, our methods can be easily extended to the previous node clustering approaches for hierarchical graph pooling. Our experimental results show that GMT significantly outperforms state-of-the-art graph pooling methods on graph classification benchmarks with high memory and time efficiency, and obtains even larger performance gain on graph reconstruction and generation tasks.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;problem-definition&quot;&gt;Problem Definition&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/Figure1.png&quot; alt=&quot;Figure1&quot; title=&quot;Figure 1. (Left): Conceptual comparison of graph pooling methods. (Right): Illustration of Set, Multiset, and Graph Multiset encoding.&quot; width=&quot;90%&quot; height=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Graph pooling is important to represent a whole graph into a compact representation. However, previous graph pooling approaches have obvious drawbacks defined as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simple sum pooling can not consider relative importance among nodes (See B. of Figure 1, Left).&lt;/li&gt;
+  &lt;li&gt;Node drop discards some nodes at pooling, leading to information loss on those discarded nodes (See C. of Figure 1, Left).&lt;/li&gt;
+  &lt;li&gt;Node clustering computes the dense cluster matrix, which leads to high computational complexity (See D. of Figure 1, Left).&lt;/li&gt;
+  &lt;li&gt;Most graph pooling studies overlook graph isomorphism test except for a few (See green check icon in Figure 1, Left).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;To obtain accurate representations of graphs, we need a graph pooling function, which satisfties following properties:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;(WL Test)&lt;/strong&gt; To obtain accurate representations of graphs, we first note that a graph pooling function should be as powerful as the WL (Weisfeiler-Lehman) graph isomorphism test in distinguishing two different graphs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(Multiset Encoding)&lt;/strong&gt; We focus on that graph representation learning should be regarded as multiset encoding (See B. Multiset of Figure 1, Right).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(Graph Multiset Encoding)&lt;/strong&gt; Furthermore, we define a graph multiset encoding (See C. of Figure 1, Right), whose goal is to encode two different graphs into two unique embeddings, by utilizing graph-structured attention units.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;method&quot;&gt;Method&lt;/h1&gt;
+
+&lt;h2 id=&quot;graph-multiset-transformer&quot;&gt;Graph Multiset Transformer&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/Figure2.PNG&quot; alt=&quot;Figure2&quot; title=&quot;Figure 2. Overall architecture of Graph Multiset Transformer.&quot; width=&quot;95%&quot; height=&quot;95%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;graph-multi-head-attention-gmh&quot;&gt;Graph Multi-head Attention (GMH)&lt;/h3&gt;
+
+&lt;p&gt;To consider dependencies among nodes of a graph, we use multi-head attention units as a basic component in our pooling scheme:
+$$ \text{MH}(Q, K, V) = \left[ O_1, …, O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, KW^K_i, VW^V_i), $$
+where $\text{Att}(Q, K, V) = w(Q K^T)V$ with an activation function $w$. The attention function computes the dot product of the query with all keys, to put more weights on the relevant values, namely nodes.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, to explicitly leverage the graph structure, we modify the multi-head attention function by constructing the key and value layers using GNNs:
+$$ \text{GMH}(Q, H, A) = \left[ O_1, …, O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, \text{GNN}^K_i(H, A), \text{GNN}^V_i(H, A)). $$&lt;/p&gt;
+
+&lt;h3 id=&quot;graph-multiset-pooling-gmpool&quot;&gt;Graph Multiset Pooling (GMPool)&lt;/h3&gt;
+
+&lt;p&gt;Based on the GMH, we propose a graph pooling function that compresses the $n$ nodes into $k$ typical nodes with a parameterized seed matrix $S$, while taking the graph structure into account:
+$$ \text{GMPool}_{k}(H, A) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(S + \text{GMH}(S, H, A)), $$
+where $\text{rFF}$ is any row-wise feedforward layer that processes each individual row independently and identically, and $\text{LN}$ is a layer normalization. Note that the GMH function considers interactions between $k$ seed vectors (queries) in $S$ and $n$ nodes (keys) in $H$, to compress $n$ nodes into $k$ clusters with their attention similarities between queries and keys.&lt;/p&gt;
+
+&lt;h3 id=&quot;self-attention-selfatt&quot;&gt;Self-Attention (SelfAtt)&lt;/h3&gt;
+
+&lt;p&gt;The GMPool does not consider the relationships between nodes. To tackle this limitation, we propose a Self-Attention function:
+$$ \text{SelfAtt}(H) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(H + \text{MH}(H, H, H)), $$
+where, compared to GMH in the above equation that considers interactions between $k$ vectors and $n$ nodes, SelfAtt captures inter-relationships among $n$ nodes by putting node embeddings $H$ on both query and key locations in MH.&lt;/p&gt;
+
+&lt;h3 id=&quot;overall-architecture&quot;&gt;Overall Architecture&lt;/h3&gt;
+
+&lt;p&gt;A full structure of Graph Multiset Transformer (GMT) consisting of GNNs and pooling layers using ingredients above is depicted in Figure 2.&lt;/p&gt;
+
+&lt;h2 id=&quot;connection-with-weisfeiler-lehman-graph-isomorphism-test&quot;&gt;Connection with Weisfeiler-Lehman Graph Isomorphism Test&lt;/h2&gt;
+
+&lt;p&gt;Weisfeiler-Lehman (WL) test is known for its ability to efficiently distinguish two different graphs. Building on previous powerful GNNs, if our graph pooling function is injective, then our overall architecture can be at most as powerful as the WL test, which is formalized in Theorem 1, Lemma 2, and Proposition 3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Theorem 1 (Non-isomorphic Graphs to Different Embeddings).&lt;/strong&gt; Let $\mathcal{A}: G \rightarrow \mathbb{R}^d$ be a GNN, and Weisfeiler-Lehman test decides two graphs $G_1 \in \mathcal{G}$ and $G_2 \in \mathcal{G}$ as non-isomorphic. Then, $\mathcal{A}$ maps two different graphs $G_1$ and $G_2$ to distinct vectors if node aggregation and update functions are injective, and graph-level readout, which operates on a multiset of node features ${ H_i }$, is injective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lemma 2 (Injectiveness on Graph Multiset Pooling).&lt;/strong&gt; Assume the input feature space $\mathcal{H}$ is a countable set. Then the output of $\text{GMPool}_k^i(H, A)$ with $\text{GMH}(S_i, H, A)$ for a seed vector $S_i$ can be unique for each multiset $H \subset \mathcal{H}$ of bounded size. Further, the output of full $\text{GMPool}_k(H, A)$ constructs a multiset with k elements, which are also unique on the input multiset $H$.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposition 3 (Injectiveness on Pooling Function).&lt;/strong&gt; The overall Graph Multiset Transformer with multiple GMPool and SelfAtt can map two different graphs $G_1$ and $G_2$ to distinct embedding spaces, such that the resulting GNN with proposed pooling functions can be as powerful as the WL test.&lt;/p&gt;
+
+&lt;h2 id=&quot;connection-with-node-clustering-approaches&quot;&gt;Connection with Node Clustering Approaches&lt;/h2&gt;
+
+&lt;p&gt;Node clustering is widely used for coarsening a graph in a hierarchical manner, and also our architecture can be further approximated to the node clustering methods by manipulating an adjacency matrix as formalized in Proposition 5, whereas requiring minimal space complexity as formalized in Theorem 4.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Theorem 4 (Space Complexity of Graph Multiset Pooling).&lt;/strong&gt; Graph Multiset Pooling condsense a graph with $n$ nodes to $k$ nodes in $\mathcal{O}(nk)$ space complexity, which can be further optimized to $\mathcal{O}(n)$.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposition 5 (Approximation to Node Clustering).&lt;/strong&gt; Graph Multiset Pooling $\text{GMPool}_k$ can perform hierarchical node clustering with learnable $k$ cluster centroids by Seed Vector $S$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;h2 id=&quot;graph-classification&quot;&gt;Graph Classification&lt;/h2&gt;
+
+&lt;p&gt;Graph Multiset Transformer (GMT) outperforms all baselines by a large margin on various classification datasets (See Table 1).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/classification.PNG&quot; alt=&quot;Table1&quot; title=&quot;Table 1. Graph classification results on test sets.&quot; width=&quot;95%&quot; height=&quot;95%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graph-reconstruction&quot;&gt;Graph Reconstruction&lt;/h2&gt;
+
+&lt;p&gt;Graph Multiset Pooling (GMPool) obtains significant performance gains on both the synthetic graph and molecule graph reconstruction tasks (Figure 3).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/reconstruction.PNG&quot; alt=&quot;Figure3&quot; title=&quot;Figure 3. Graph classification results on synthetic ring and graph graphs (left) and ZINC molecular graphs (right).&quot; width=&quot;95%&quot; height=&quot;95%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graph-generation&quot;&gt;Graph Generation&lt;/h2&gt;
+
+&lt;p&gt;Using GMT, instead of simple pooling, results in more stable molecule generations on the QM9 dataset with a MolGAN architecture (Figure 4).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/generation.PNG&quot; alt=&quot;Figure4&quot; title=&quot;Figure 4. Validity curve for molecule generation.&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;efficiency&quot;&gt;Efficiency&lt;/h2&gt;
+
+&lt;p&gt;GMT is efficient in terms of both memory and time complexity compared to existing baselines (Figure 5).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GMT/efficiency.PNG&quot; alt=&quot;Figure5&quot; title=&quot;Figure 5. Memory efficiency (left) and Time efficiency (right) of GMT.&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;In this work, we pointed out that existing graph pooling approaches either do not consider the task relevance of each node (sum or mean) or may not satisfy the injectiveness (node drop and clustering methods). To overcome such limitations, we proposed a novel graph pooling method, \emph{Graph Multiset Transformer} (GMT), which not only encodes the given set of node embeddings as a multiset to uniquely embed two different graphs into two distinct embeddings, but also considers both the global structure of the graph and their task relevance in compressing the node features. We theoretically justified that the proposed pooling function is as powerful as the WL test, and can be extended to the node clustering schemes. We validated the proposed GMT on 10 graph classification datasets, and our method outperformed state-of-the-art graph pooling models on most of them. We further showed that our method is superior to the existing graph pooling approaches on graph reconstruction and generation tasks, which require more accurate representations of the graph than classification tasks. We strongly believe that the proposed pooling method will bring substantial practical impact, as it is generally applicable to many graph-learning tasks that are becoming increasingly important.&lt;/p&gt;</content><author><name>Jinheon Baek</name></author><category term="Research" /><category term="Research" /><category term="Deep Learning" /><category term="Graph Pooling" /><category term="Graph Multiset Pooling" /><category term="Graph Transformer" /><category term="Graph Multiset Transformer" /><category term="Graph Representation Learning" /><category term="Graph Classification" /><category term="Graph Reconstruction" /><category term="Graph Generation" /><summary type="html">About</summary></entry><entry><title type="html">Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)</title><link href="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/" rel="alternate" type="text/html" title="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/research/2020/12/06/Graph%20Extrapolation%20Network</id><content type="html" xml:base="http://localhost:4000/research/2020/12/06/Graph-Extrapolation-Network/">&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction.&lt;/li&gt;
@@ -6,6 +131,7 @@
   &lt;li&gt;&lt;strong&gt;Conference&lt;/strong&gt;:  In Proceedings of Advances in Neural Information Processing System 33 proceedings (NeurIPS 2020).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: https://arxiv.org/abs/2006.06648&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: https://github.com/JinheonBaek/GEN&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: We propose to represent unseen entities by extrapolating knowledge from seen to unseen with graph neural networks, over a novel meta-learning scheme to simulate the unseen entities during training.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;

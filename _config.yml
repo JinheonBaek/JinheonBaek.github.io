@@ -55,6 +55,10 @@ markdown: kramdown
 kramdown:
     input: GFM
 
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:

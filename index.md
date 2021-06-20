@@ -43,7 +43,7 @@ Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](http
 
 ### Workshop
 
-* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park. Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation. Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021** (to appear). **(Oral Presentation)**
+* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park. Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation. Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021**. [[paper]](https://arxiv.org/abs/2105.00666) **(Oral Presentation)**
 
 ---
 

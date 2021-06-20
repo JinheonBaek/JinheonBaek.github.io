@@ -24,6 +24,7 @@ tags:
 * **Conference**:  In Proceedings of Advances in Neural Information Processing System 33 proceedings (NeurIPS 2020).
 * **Paper**: https://arxiv.org/abs/2006.06648
 * **Code**: https://github.com/JinheonBaek/GEN
+* **TL;DR**: We propose to represent unseen entities by extrapolating knowledge from seen to unseen with graph neural networks, over a novel meta-learning scheme to simulate the unseen entities during training.
 
 ---
 

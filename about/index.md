@@ -22,7 +22,7 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 
 ## Research Interest
 
-My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge, and interactions between drugs with relational graphs.
+My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing and generating graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge and between drugs with relational graphs.
 
 <!-- Prior to research on graphs, I also worked on artificial intelligence for education. -->
 
@@ -60,7 +60,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Workshop
 
-* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park. Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation. Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021** (to appear). **(Oral Presentation)**
+* Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park. Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation. Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021**. [[paper]](https://arxiv.org/abs/2105.00666) **(Oral Presentation)**
 
 ### Domestic (Korean) Journal & Conference
 
@@ -76,6 +76,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Conference Reviewer
 
+* International Conference on Learning Representation (**ICLR**), 2022
 * Neural Information Processing System (**NeurIPS**), 2021
 * International Conference on Machine Learning (**ICML**), 2021
 

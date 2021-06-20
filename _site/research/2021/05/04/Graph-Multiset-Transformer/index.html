@@ -1,0 +1,1067 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Research,Deep Learning,Graph Pooling,Graph Multiset Pooling,Graph Transformer,Graph Multiset Transformer,Graph Representation Learning,Graph Classification,Graph Reconstruction,Graph Generation," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jinheon Baek" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Summary of the paper: Accurate Learning of Graph Representations with Graph Multiset Pooling, which is accepted to ICLR 2021.">
+<meta name="keywords" content="Research, Deep Learning, Graph Pooling, Graph Multiset Pooling, Graph Transformer, Graph Multiset Transformer, Graph Representation Learning, Graph Classification, Graph Reconstruction, Graph Generation">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)">
+<meta property="og:url" content="http://localhost:4000/research/2021/05/04/Graph-Multiset-Transformer/">
+<meta property="og:site_name" content="Jinheon Baek">
+<meta property="og:description" content="Summary of the paper: Accurate Learning of Graph Representations with Graph Multiset Pooling, which is accepted to ICLR 2021.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/GMT/Figure1.png">
+<meta property="og:image" content="/assets/images/GMT/Figure2.PNG">
+<meta property="og:image" content="/assets/images/GMT/classification.PNG">
+<meta property="og:image" content="/assets/images/GMT/reconstruction.PNG">
+<meta property="og:image" content="/assets/images/GMT/generation.PNG">
+<meta property="og:image" content="/assets/images/GMT/efficiency.PNG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)">
+<meta name="twitter:description" content="Summary of the paper: Accurate Learning of Graph Representations with Graph Multiset Pooling, which is accepted to ICLR 2021.">
+<meta name="twitter:image" content="/assets/images/GMT/Figure1.png">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/"/>
+
+
+
+
+
+  <title>Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021) | Jinheon Baek</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jinheon Baek</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">A master student in the Graduate School of AI at KAIST.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    TeX: {
+        equationNumbers: {
+        autoNumber: "AMS"
+        }
+    },
+    tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$'] ],
+    processEscapes: true,
+    }
+});
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+        alert("Math Processing Error: "+message[1]);
+    });
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+        alert("Math Processing Error: "+message[1]);
+    });
+</script>
+<script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+<div id="posts" class="posts-expand">
+  
+  
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/research/2021/05/04/Graph-Multiset-Transformer/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jinheon Baek">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/assets/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jinheon Baek">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-04T00:00:00+09:00">
+                2021-05-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/Research" itemprop="url" rel="index">
+                    <span itemprop="name">Research</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/research/2021/05/04/Graph-Multiset-Transformer/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/research/2021/05/04/Graph-Multiset-Transformer/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+            
+                <div class="post-description">
+                    Summary of the paper: Accurate Learning of Graph Representations with Graph Multiset Pooling, which is accepted to ICLR 2021.
+                </div>
+            
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 id="about">About</h1>
+
+<ul>
+  <li><strong>Title</strong>: Accurate Learning of Graph Representations with Graph Multiset Pooling.</li>
+  <li><strong>Author</strong>: Jinheon Baek<em>, Minki Kang</em>, Sung Ju Hwang. (*: equal contribution)</li>
+  <li><strong>Conference</strong>:  International Conference on Learning Representations (ICLR 2020).</li>
+  <li><strong>Paper</strong>: https://openreview.net/forum?id=JHcqXGaqiGn</li>
+  <li><strong>Code</strong>: https://github.com/JinheonBaek/GMT</li>
+  <li><strong>TL;DR</strong>: We propose a novel graph pooling method for graph representation learning, which considers a multiset scheme with attention-based transformer operations.</li>
+</ul>
+
+<hr />
+
+<h1 id="abstract">Abstract</h1>
+
+<p>Graph neural networks have been widely used on modeling graph data, achieving impressive results on node classification and link prediction tasks. Yet, obtaining an accurate representation for a graph further requires a pooling function that maps a set of node representations into a compact form. A simple sum or average over all node representations considers all node features equally without consideration of their task relevance, and any structural dependencies among them. Recently proposed hierarchical graph pooling methods, on the other hand, may yield the same representation for two different graphs that are distinguished by the Weisfeiler-Lehman test, as they suboptimally preserve information from the node features. To tackle these limitations of existing graph pooling methods, we first formulate the graph pooling problem as a multiset encoding problem with auxiliary information about the graph structure, and propose a Graph Multiset Transformer (GMT) which is a multi-head attention based global pooling layer that captures the interaction between nodes according to their structural dependencies. We show that GMT satisfies both injectiveness and permutation invariance, such that it is at most as powerful as the Weisfeiler-Lehman graph isomorphism test. Moreover, our methods can be easily extended to the previous node clustering approaches for hierarchical graph pooling. Our experimental results show that GMT significantly outperforms state-of-the-art graph pooling methods on graph classification benchmarks with high memory and time efficiency, and obtains even larger performance gain on graph reconstruction and generation tasks.</p>
+
+<hr />
+
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="problem-definition">Problem Definition</h2>
+
+<p><img src="/assets/images/GMT/Figure1.png" alt="Figure1" title="Figure 1. (Left): Conceptual comparison of graph pooling methods. (Right): Illustration of Set, Multiset, and Graph Multiset encoding." width="90%" height="50%" /></p>
+
+<p>Graph pooling is important to represent a whole graph into a compact representation. However, previous graph pooling approaches have obvious drawbacks defined as follows:</p>
+<ul>
+  <li>Simple sum pooling can not consider relative importance among nodes (See B. of Figure 1, Left).</li>
+  <li>Node drop discards some nodes at pooling, leading to information loss on those discarded nodes (See C. of Figure 1, Left).</li>
+  <li>Node clustering computes the dense cluster matrix, which leads to high computational complexity (See D. of Figure 1, Left).</li>
+  <li>Most graph pooling studies overlook graph isomorphism test except for a few (See green check icon in Figure 1, Left).</li>
+</ul>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>To obtain accurate representations of graphs, we need a graph pooling function, which satisfties following properties:</p>
+<ul>
+  <li><strong>(WL Test)</strong> To obtain accurate representations of graphs, we first note that a graph pooling function should be as powerful as the WL (Weisfeiler-Lehman) graph isomorphism test in distinguishing two different graphs.</li>
+  <li><strong>(Multiset Encoding)</strong> We focus on that graph representation learning should be regarded as multiset encoding (See B. Multiset of Figure 1, Right).</li>
+  <li><strong>(Graph Multiset Encoding)</strong> Furthermore, we define a graph multiset encoding (See C. of Figure 1, Right), whose goal is to encode two different graphs into two unique embeddings, by utilizing graph-structured attention units.</li>
+</ul>
+
+<hr />
+
+<h1 id="method">Method</h1>
+
+<h2 id="graph-multiset-transformer">Graph Multiset Transformer</h2>
+
+<p><img src="/assets/images/GMT/Figure2.PNG" alt="Figure2" title="Figure 2. Overall architecture of Graph Multiset Transformer." width="95%" height="95%" /></p>
+
+<h3 id="graph-multi-head-attention-gmh">Graph Multi-head Attention (GMH)</h3>
+
+<p>To consider dependencies among nodes of a graph, we use multi-head attention units as a basic component in our pooling scheme:
+$$ \text{MH}(Q, K, V) = \left[ O_1, …, O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, KW^K_i, VW^V_i), $$
+where $\text{Att}(Q, K, V) = w(Q K^T)V$ with an activation function $w$. The attention function computes the dot product of the query with all keys, to put more weights on the relevant values, namely nodes.</p>
+
+<p>Furthermore, to explicitly leverage the graph structure, we modify the multi-head attention function by constructing the key and value layers using GNNs:
+$$ \text{GMH}(Q, H, A) = \left[ O_1, …, O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, \text{GNN}^K_i(H, A), \text{GNN}^V_i(H, A)). $$</p>
+
+<h3 id="graph-multiset-pooling-gmpool">Graph Multiset Pooling (GMPool)</h3>
+
+<p>Based on the GMH, we propose a graph pooling function that compresses the $n$ nodes into $k$ typical nodes with a parameterized seed matrix $S$, while taking the graph structure into account:
+$$ \text{GMPool}_{k}(H, A) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(S + \text{GMH}(S, H, A)), $$
+where $\text{rFF}$ is any row-wise feedforward layer that processes each individual row independently and identically, and $\text{LN}$ is a layer normalization. Note that the GMH function considers interactions between $k$ seed vectors (queries) in $S$ and $n$ nodes (keys) in $H$, to compress $n$ nodes into $k$ clusters with their attention similarities between queries and keys.</p>
+
+<h3 id="self-attention-selfatt">Self-Attention (SelfAtt)</h3>
+
+<p>The GMPool does not consider the relationships between nodes. To tackle this limitation, we propose a Self-Attention function:
+$$ \text{SelfAtt}(H) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(H + \text{MH}(H, H, H)), $$
+where, compared to GMH in the above equation that considers interactions between $k$ vectors and $n$ nodes, SelfAtt captures inter-relationships among $n$ nodes by putting node embeddings $H$ on both query and key locations in MH.</p>
+
+<h3 id="overall-architecture">Overall Architecture</h3>
+
+<p>A full structure of Graph Multiset Transformer (GMT) consisting of GNNs and pooling layers using ingredients above is depicted in Figure 2.</p>
+
+<h2 id="connection-with-weisfeiler-lehman-graph-isomorphism-test">Connection with Weisfeiler-Lehman Graph Isomorphism Test</h2>
+
+<p>Weisfeiler-Lehman (WL) test is known for its ability to efficiently distinguish two different graphs. Building on previous powerful GNNs, if our graph pooling function is injective, then our overall architecture can be at most as powerful as the WL test, which is formalized in Theorem 1, Lemma 2, and Proposition 3.</p>
+
+<p><strong>Theorem 1 (Non-isomorphic Graphs to Different Embeddings).</strong> Let $\mathcal{A}: G \rightarrow \mathbb{R}^d$ be a GNN, and Weisfeiler-Lehman test decides two graphs $G_1 \in \mathcal{G}$ and $G_2 \in \mathcal{G}$ as non-isomorphic. Then, $\mathcal{A}$ maps two different graphs $G_1$ and $G_2$ to distinct vectors if node aggregation and update functions are injective, and graph-level readout, which operates on a multiset of node features ${ H_i }$, is injective.</p>
+
+<p><strong>Lemma 2 (Injectiveness on Graph Multiset Pooling).</strong> Assume the input feature space $\mathcal{H}$ is a countable set. Then the output of $\text{GMPool}_k^i(H, A)$ with $\text{GMH}(S_i, H, A)$ for a seed vector $S_i$ can be unique for each multiset $H \subset \mathcal{H}$ of bounded size. Further, the output of full $\text{GMPool}_k(H, A)$ constructs a multiset with k elements, which are also unique on the input multiset $H$.</p>
+
+<p><strong>Proposition 3 (Injectiveness on Pooling Function).</strong> The overall Graph Multiset Transformer with multiple GMPool and SelfAtt can map two different graphs $G_1$ and $G_2$ to distinct embedding spaces, such that the resulting GNN with proposed pooling functions can be as powerful as the WL test.</p>
+
+<h2 id="connection-with-node-clustering-approaches">Connection with Node Clustering Approaches</h2>
+
+<p>Node clustering is widely used for coarsening a graph in a hierarchical manner, and also our architecture can be further approximated to the node clustering methods by manipulating an adjacency matrix as formalized in Proposition 5, whereas requiring minimal space complexity as formalized in Theorem 4.</p>
+
+<p><strong>Theorem 4 (Space Complexity of Graph Multiset Pooling).</strong> Graph Multiset Pooling condsense a graph with $n$ nodes to $k$ nodes in $\mathcal{O}(nk)$ space complexity, which can be further optimized to $\mathcal{O}(n)$.</p>
+
+<p><strong>Proposition 5 (Approximation to Node Clustering).</strong> Graph Multiset Pooling $\text{GMPool}_k$ can perform hierarchical node clustering with learnable $k$ cluster centroids by Seed Vector $S$.</p>
+
+<hr />
+
+<h1 id="results">Results</h1>
+
+<h2 id="graph-classification">Graph Classification</h2>
+
+<p>Graph Multiset Transformer (GMT) outperforms all baselines by a large margin on various classification datasets (See Table 1).</p>
+
+<p><img src="/assets/images/GMT/classification.PNG" alt="Table1" title="Table 1. Graph classification results on test sets." width="95%" height="95%" /></p>
+
+<h2 id="graph-reconstruction">Graph Reconstruction</h2>
+
+<p>Graph Multiset Pooling (GMPool) obtains significant performance gains on both the synthetic graph and molecule graph reconstruction tasks (Figure 3).</p>
+
+<p><img src="/assets/images/GMT/reconstruction.PNG" alt="Figure3" title="Figure 3. Graph classification results on synthetic ring and graph graphs (left) and ZINC molecular graphs (right)." width="95%" height="95%" /></p>
+
+<h2 id="graph-generation">Graph Generation</h2>
+
+<p>Using GMT, instead of simple pooling, results in more stable molecule generations on the QM9 dataset with a MolGAN architecture (Figure 4).</p>
+
+<p><img src="/assets/images/GMT/generation.PNG" alt="Figure4" title="Figure 4. Validity curve for molecule generation." width="50%" height="50%" /></p>
+
+<h2 id="efficiency">Efficiency</h2>
+
+<p>GMT is efficient in terms of both memory and time complexity compared to existing baselines (Figure 5).</p>
+
+<p><img src="/assets/images/GMT/efficiency.PNG" alt="Figure5" title="Figure 5. Memory efficiency (left) and Time efficiency (right) of GMT." width="75%" height="75%" /></p>
+
+<hr />
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>In this work, we pointed out that existing graph pooling approaches either do not consider the task relevance of each node (sum or mean) or may not satisfy the injectiveness (node drop and clustering methods). To overcome such limitations, we proposed a novel graph pooling method, \emph{Graph Multiset Transformer} (GMT), which not only encodes the given set of node embeddings as a multiset to uniquely embed two different graphs into two distinct embeddings, but also considers both the global structure of the graph and their task relevance in compressing the node features. We theoretically justified that the proposed pooling function is as powerful as the WL test, and can be extended to the node clustering schemes. We validated the proposed GMT on 10 graph classification datasets, and our method outperformed state-of-the-art graph pooling models on most of them. We further showed that our method is superior to the existing graph pooling approaches on graph reconstruction and generation tasks, which require more accurate representations of the graph than classification tasks. We strongly believe that the proposed pooling method will bring substantial practical impact, as it is generally applicable to many graph-learning tasks that are becoming increasingly important.</p>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            
+            <a href="/tag/#/Research" rel="tag"># Research</a>
+          
+            
+            <a href="/tag/#/Deep%20Learning" rel="tag"># Deep Learning</a>
+          
+            
+            <a href="/tag/#/Graph%20Pooling" rel="tag"># Graph Pooling</a>
+          
+            
+            <a href="/tag/#/Graph%20Multiset%20Pooling" rel="tag"># Graph Multiset Pooling</a>
+          
+            
+            <a href="/tag/#/Graph%20Transformer" rel="tag"># Graph Transformer</a>
+          
+            
+            <a href="/tag/#/Graph%20Multiset%20Transformer" rel="tag"># Graph Multiset Transformer</a>
+          
+            
+            <a href="/tag/#/Graph%20Representation%20Learning" rel="tag"># Graph Representation Learning</a>
+          
+            
+            <a href="/tag/#/Graph%20Classification" rel="tag"># Graph Classification</a>
+          
+            
+            <a href="/tag/#/Graph%20Reconstruction" rel="tag"># Graph Reconstruction</a>
+          
+            
+            <a href="/tag/#/Graph%20Generation" rel="tag"># Graph Generation</a>
+          
+        </div>
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+        <div class="post-nav" id="post-nav-id">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/research/2020/12/06/Graph-Extrapolation-Network/" rel="prev" title="Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020)">
+                Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction (NeurIPS 2020) <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+      
+
+      
+    </footer>
+  </article>
+
+  <div class="post-spread">
+    
+  </div>
+</div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        
+        
+        
+
+
+
+
+
+
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/assets/images/avatar.jpeg"
+               alt="Jinheon Baek" />
+          <p class="site-author-name" itemprop="name">Jinheon Baek</p>
+           
+              <p class="site-description motion-element" itemprop="description">Technical Blog for Jinheon Baek, that contains information about me, and posts about research on machie learning.</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+        
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://github.com/JinheonBaek" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/JinheonBaek" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+            
+              <div class="post-toc-content">
+    <ol class=nav>
+      <li class="nav-item nav-level-1"> <a class="nav-link" href="#about"> <span class="nav-number">1</span> <span class="nav-text">About</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#abstract"> <span class="nav-number">2</span> <span class="nav-text">Abstract</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#introduction"> <span class="nav-number">3</span> <span class="nav-text">Introduction</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#problem-definition"> <span class="nav-number">3.1</span> <span class="nav-text">Problem Definition</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#motivation"> <span class="nav-number">3.2</span> <span class="nav-text">Motivation</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#method"> <span class="nav-number">4</span> <span class="nav-text">Method</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#graph-multiset-transformer"> <span class="nav-number">4.1</span> <span class="nav-text">Graph Multiset Transformer</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-3"> <a class="nav-link" href="#graph-multi-head-attention-gmh"> <span class="nav-number">4.1.1</span> <span class="nav-text">Graph Multi-head Attention (GMH)</span> </a> </li> <li class="nav-item nav-level-3"> <a class="nav-link" href="#graph-multiset-pooling-gmpool"> <span class="nav-number">4.1.2</span> <span class="nav-text">Graph Multiset Pooling (GMPool)</span> </a> </li> <li class="nav-item nav-level-3"> <a class="nav-link" href="#self-attention-selfatt"> <span class="nav-number">4.1.3</span> <span class="nav-text">Self-Attention (SelfAtt)</span> </a> </li> <li class="nav-item nav-level-3"> <a class="nav-link" href="#overall-architecture"> <span class="nav-number">4.1.4</span> <span class="nav-text">Overall Architecture</span> </a> </li> </ol> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#connection-with-weisfeiler-lehman-graph-isomorphism-test"> <span class="nav-number">4.2</span> <span class="nav-text">Connection with Weisfeiler-Lehman Graph Isomorphism Test</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#connection-with-node-clustering-approaches"> <span class="nav-number">4.3</span> <span class="nav-text">Connection with Node Clustering Approaches</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#results"> <span class="nav-number">5</span> <span class="nav-text">Results</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#graph-classification"> <span class="nav-number">5.1</span> <span class="nav-text">Graph Classification</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#graph-reconstruction"> <span class="nav-number">5.2</span> <span class="nav-text">Graph Reconstruction</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#graph-generation"> <span class="nav-number">5.3</span> <span class="nav-text">Graph Generation</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#efficiency"> <span class="nav-number">5.4</span> <span class="nav-text">Efficiency</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#conclusion"> <span class="nav-number">6</span> <span class="nav-text">Conclusion</span> </a> </li>
+    </ol>
+  </div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jinheon Baek</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://jinheonbaek.disqus.com/count.js" async></script>
+    
+
+    
+      
+      <script type="text/javascript">
+          var disqus_config = function () {
+              this.page.url = 'http://localhost:4000/research/2021/05/04/Graph-Multiset-Transformer/';
+              this.page.identifier = '/research/2021/05/04/Graph-Multiset-Transformer/';
+              this.page.title = 'Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)';
+          };
+          var d = document, s = d.createElement('script');
+          s.src = 'https://jinheonbaek.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', '' + +new Date());
+          (d.head || d.body).appendChild(s);
+      </script>
+      
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
