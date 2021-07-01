@@ -12,9 +12,9 @@ sitemap: true
 
 ![](https://jinheonbaek.github.io/images/1.JPG)  | ![](https://jinheonbaek.github.io/images/4.jpg)
 
-Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs in these days.
+Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs.
 
-I finished my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
+I obtained my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
 
 Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people.
 
@@ -22,7 +22,7 @@ Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an
 
 ## Research Interest
 
-My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing and generating graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge and between drugs with relational graphs.
+My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing and generating graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge with graphs.
 
 <!-- Prior to research on graphs, I also worked on artificial intelligence for education. -->
 
@@ -47,12 +47,13 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Preprint
 
+* Jaehyeong Jo\*, **Jinheon Baek**\*, Seul Lee\*, Dongki Kim, Minki Kang, and Sung Ju Hwang. Edge Representation Learning with Hypergraphs. arXiv:2106.15845. [[paper]](https://arxiv.org/abs/2106.15845) (\*: equal contribution)
 * Wonyong Jeong\*, Hayeon Lee\*, Gun Park\*, Eunyoung Hyung, **Jinheon Baek**, and Sung Ju Hwang. Task-Adaptive Neural Network Retrieval with Meta-Contrastive Learning. arXiv:2103.01495. [[paper]](https://arxiv.org/abs/2103.01495) (\*: equal contribution)
 
 ### Conference
 
-* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang. Accurate Learning of Graph Representations with Graph Multiset Pooling. International Conference on Learning Representation **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
-* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang. Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction. Conference on Neural Information Processing System **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang. Accurate Learning of Graph Representations with Graph Multiset Pooling. International Conference on Learning Representations **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
+* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang. Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction. Conference on Neural Information Processing Systems **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### Journal
 
@@ -76,8 +77,8 @@ My research interest is mainly on developing novel machine learning models and a
 
 ### Conference Reviewer
 
-* International Conference on Learning Representation (**ICLR**), 2022
-* Neural Information Processing System (**NeurIPS**), 2021
+* International Conference on Learning Representations (**ICLR**), 2022
+* Neural Information Processing Systems (**NeurIPS**), 2021
 * International Conference on Machine Learning (**ICML**), 2021
 
 ---

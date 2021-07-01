@@ -7,7 +7,7 @@ sitemap: true
 
 ## About Me
 
-Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs. Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea.
+Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs. Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea.
 
 ---
 
@@ -30,12 +30,13 @@ Hi, I'm a master student in the Graduate school of AI at KAIST [(MLAI Lab)](http
 
 ### Preprint
 
+* Jaehyeong Jo\*, **Jinheon Baek**\*, Seul Lee\*, Dongki Kim, Minki Kang, and Sung Ju Hwang. Edge Representation Learning with Hypergraphs. arXiv:2106.15845. [[paper]](https://arxiv.org/abs/2106.15845) (\*: equal contribution)
 * Wonyong Jeong\*, Hayeon Lee\*, Gun Park\*, Eunyoung Hyung, **Jinheon Baek**, and Sung Ju Hwang. Task-Adaptive Neural Network Retrieval with Meta-Contrastive Learning. arXiv:2103.01495. [[paper]](https://arxiv.org/abs/2103.01495) (\*: equal contribution)
 
 ### Conference
 
-* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang. Accurate Learning of Graph Representations with Graph Multiset Pooling. International Conference on Learning Representation **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
-* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang. Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction. Conference on Neural Information Processing System **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
+* **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang. Accurate Learning of Graph Representations with Graph Multiset Pooling. International Conference on Learning Representations **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
+* **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang. Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction. Conference on Neural Information Processing Systems **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
 
 ### Journal
 

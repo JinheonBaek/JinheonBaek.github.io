@@ -1,6 +1,6 @@
 ---
 title: "Accurate Learning of Graph Representations with Graph Multiset Pooling (ICLR 2021)"
-date: 2021-05-04
+date: 2021-07-01
 description: "Summary of the paper: Accurate Learning of Graph Representations with Graph Multiset Pooling, which is accepted to ICLR 2021."
 categories:
  - Research
@@ -21,8 +21,8 @@ use_math: true
 # About
 
 * **Title**: Accurate Learning of Graph Representations with Graph Multiset Pooling.
-* **Author**: Jinheon Baek\*, Minki Kang\*, Sung Ju Hwang. (*: equal contribution)
-* **Conference**:  International Conference on Learning Representations (ICLR 2020).
+* **Author**: Jinheon Baek\*, Minki Kang\*, and Sung Ju Hwang. (*: equal contribution)
+* **Conference**:  International Conference on Learning Representations (ICLR 2021).
 * **Paper**: https://openreview.net/forum?id=JHcqXGaqiGn
 * **Code**: https://github.com/JinheonBaek/GMT
 * **TL;DR**: We propose a novel graph pooling method for graph representation learning, which considers a multiset scheme with attention-based transformer operations.
@@ -45,7 +45,7 @@ Graph pooling is important to represent a whole graph into a compact representat
 * Simple sum pooling can not consider relative importance among nodes (See B. of Figure 1, Left).
 * Node drop discards some nodes at pooling, leading to information loss on those discarded nodes (See C. of Figure 1, Left). 
 * Node clustering computes the dense cluster matrix, which leads to high computational complexity (See D. of Figure 1, Left).
-* Most graph pooling studies overlook graph isomorphism test except for a few (See green check icon in Figure 1, Left).
+* Most graph pooling studies overlook the graph isomorphism test except for a few (See green check icon in Figure 1, Left).
 
 ## Motivation
 
@@ -65,23 +65,23 @@ To obtain accurate representations of graphs, we need a graph pooling function, 
 ### Graph Multi-head Attention (GMH)
 
 To consider dependencies among nodes of a graph, we use multi-head attention units as a basic component in our pooling scheme:
-$\$ \text{MH}(Q, K, V) = \left[ O_1, ..., O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, KW^K_i, VW^V_i), $\$
+$\$ \text{MH}(Q, K, V) = \left[ O_1, ..., O_h \right] W^O, \\\ O_i = \text{Att}(QW^Q_i, KW^K_i, VW^V_i), $\$
 where $\text{Att}(Q, K, V) = w(Q K^T)V$ with an activation function $w$. The attention function computes the dot product of the query with all keys, to put more weights on the relevant values, namely nodes.
 
 Furthermore, to explicitly leverage the graph structure, we modify the multi-head attention function by constructing the key and value layers using GNNs:
-$\$ \text{GMH}(Q, H, A) = \left[ O_1, ..., O_h \right] W^O; \quad O_i = \text{Att}(QW^Q_i, \text{GNN}^K_i(H, A), \text{GNN}^V_i(H, A)). $\$
+$\$ \text{GMH}(Q, H, A) = \left[ O_1, ..., O_h \right] W^O, \\\ O_i = \text{Att}(QW^Q_i, \text{GNN}^K_i(H, A), \text{GNN}^V_i(H, A)). $\$
 
 
 ### Graph Multiset Pooling (GMPool)
 
 Based on the GMH, we propose a graph pooling function that compresses the $n$ nodes into $k$ typical nodes with a parameterized seed matrix $S$, while taking the graph structure into account:
-$\$ \text{GMPool}_{k}(H, A) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(S + \text{GMH}(S, H, A)), $\$
+$\$ \text{GMPool}_{k}(H, A) = \text{LN}(Z + \text{rFF}(Z)), \\\ Z = \text{LN}(S + \text{GMH}(S, H, A)), $\$
 where $\text{rFF}$ is any row-wise feedforward layer that processes each individual row independently and identically, and $\text{LN}$ is a layer normalization. Note that the GMH function considers interactions between $k$ seed vectors (queries) in $S$ and $n$ nodes (keys) in $H$, to compress $n$ nodes into $k$ clusters with their attention similarities between queries and keys.
 
 ### Self-Attention (SelfAtt)
 
 The GMPool does not consider the relationships between nodes. To tackle this limitation, we propose a Self-Attention function:
-$\$ \text{SelfAtt}(H) = \text{LN}(Z + \text{rFF}(Z)); \quad Z = \text{LN}(H + \text{MH}(H, H, H)), $\$
+$\$ \text{SelfAtt}(H) = \text{LN}(Z + \text{rFF}(Z)), \\\ Z = \text{LN}(H + \text{MH}(H, H, H)), $\$
 where, compared to GMH in the above equation that considers interactions between $k$ vectors and $n$ nodes, SelfAtt captures inter-relationships among $n$ nodes by putting node embeddings $H$ on both query and key locations in MH.
 
 ### Overall Architecture
