@@ -72,6 +72,13 @@ My research interest is mainly on developing novel machine learning models and a
 
 ---
 
+## Patents
+
+* Kiwon Kwon, and **Jinheon Baek**. Method for Consulting on Exploration Activities based on Target Departments and Curriculum Achievement Standards. Korean patent number: 10-2021-0017764 (filed on Feb. 08, 2021).
+* Kiwon Kwon, and **Jinheon Baek**. Method for Building an Artificial Intelligence based Research Topics Database. Korean patent number: 10-2021-0017764 (filed on Feb. 08, 2021).
+
+---
+
 ## Academic Services
 
 ### Conference Reviewers
