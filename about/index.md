@@ -12,7 +12,8 @@ sitemap: true
 
 ![](https://jinheonbaek.github.io/images/1.JPG)  | ![](https://jinheonbaek.github.io/images/4.jpg)
 
-Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I am interested in Machine Learning for Graphs. Prior to studying at KAIST, I obtained my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University, where I partially studied Machine Learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i).
+Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I am interested in Machine Learning for Graphs. Prior to studying at KAIST, I obtained my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University.
+<!-- , where I partially studied Machine Learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). -->
 
 Also, I was a technical director of Jobshopper ((주)잡쇼퍼), an AI-based education startup company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people. Now, I am technically advising Jobshopper, as well as MajorMap (메이저맵(주)) spin-off from Jobshopper.
 
