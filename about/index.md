@@ -12,17 +12,15 @@ sitemap: true
 
 ![](https://jinheonbaek.github.io/images/1.JPG)  | ![](https://jinheonbaek.github.io/images/4.jpg)
 
-Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I do research on Machine Learning for Graphs.
+Hi, I'm a master's student in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I am interested in Machine Learning for Graphs. Prior to studying at KAIST, I obtained my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University, where I partially studied Machine Learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i).
 
-I obtained my B.S. (Computer Science and Engineering) and B.E. (Software Technology and Enterprise Program) degrees at Korea University. During my undergraduate years, I had some experiences in software development with a start-up career.
-
-Also, I am a non-executive technical director of Jobshopper ((주)잡쇼퍼), an AI-based education start-up company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people.
+Also, I was a technical director of Jobshopper ((주)잡쇼퍼), an AI-based education startup company in Seoul, Korea. During one year of full-time work experience at Jobshopper as a lead engineer and researcher, I led the development and research groups of more than 10 people. Now, I am technically advising Jobshopper, as well as MajorMap (메이저맵(주)) spin-off from Jobshopper.
 
 ---
 
-## Research Interest
+## Research Interests
 
-My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing and generating graph-structured data such as a molecule, society, and neural network, as well as modeling interactions between knowledge with graphs.
+My research interest is mainly on developing novel machine learning models and algorithms for graphs. I focus on representing or generating graph-structured data such as a molecule, society, and neural network, modeling interactions between knowledge from relational-structured or even raw data with graphs, and tackling challenges on real-world graphs having noise or temporality.
 
 <!-- Prior to research on graphs, I also worked on artificial intelligence for education. -->
 
@@ -43,14 +41,14 @@ My research interest is mainly on developing novel machine learning models and a
 
 ---
 
-## Publication
+## Publications
 
-### Preprint
+### Preprints
 
 * Jaehyeong Jo\*, **Jinheon Baek**\*, Seul Lee\*, Dongki Kim, Minki Kang, and Sung Ju Hwang. Edge Representation Learning with Hypergraphs. arXiv:2106.15845. [[paper]](https://arxiv.org/abs/2106.15845) (\*: equal contribution)
 * Wonyong Jeong\*, Hayeon Lee\*, Gun Park\*, Eunyoung Hyung, **Jinheon Baek**, and Sung Ju Hwang. Task-Adaptive Neural Network Retrieval with Meta-Contrastive Learning. arXiv:2103.01495. [[paper]](https://arxiv.org/abs/2103.01495) (\*: equal contribution)
 
-### Conference
+### Conferences
 
 * **Jinheon Baek***, MinKi Kang\*, and Sung Ju Hwang. Accurate Learning of Graph Representations with Graph Multiset Pooling. International Conference on Learning Representations **(ICLR), 2021**. [[paper]](https://openreview.net/forum?id=JHcqXGaqiGn) [[code]](https://github.com/JinheonBaek/GMT) (\*: equal contribution)
 * **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang. Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction. Conference on Neural Information Processing Systems **(NeurIPS), 2020**. [[paper]](https://arxiv.org/abs/2006.06648) [[code]](https://github.com/JinheonBaek/GEN)
@@ -63,7 +61,7 @@ My research interest is mainly on developing novel machine learning models and a
 
 * Soyeong Jeong, **Jinheon Baek**, ChaeHun Park, and Jong C. Park. Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation. Scholarly Document Processing at Conference of the North American Chapter of the Association for Computational Linguistics **(SDP@NAACL), 2021**. [[paper]](https://arxiv.org/abs/2105.00666) **(Oral Presentation)**
 
-### Domestic (Korean) Journal & Conference
+### Domestic (Korean) Journals & Conferences
 
 * **Jinheon Baek**, Hayeon Kim, and Kiwon Kwon. Artificial Intelligence-Based High School Course and University Major Recommendation System for Course-Related Career Exploration. KIPS Transactions on Software and Data Engineering (KTSDE), 2021.
 * **Jinheon Baek**, Minki Kang, and Sung Ju Hwang. Graph Representation Learning with Attention-based Set Pooling. Conference of Korean Artificial Intelligence Association (CKAIA), 2020. **(Best Paper)**
@@ -73,9 +71,9 @@ My research interest is mainly on developing novel machine learning models and a
 
 ---
 
-## Academic Service
+## Academic Services
 
-### Conference Reviewer
+### Conference Reviewers
 
 * International Conference on Learning Representations (**ICLR**), 2022
 * Neural Information Processing Systems (**NeurIPS**), 2021
