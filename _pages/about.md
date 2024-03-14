@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Jinheon Baek (백진헌)** (jinheon.baek \[at] kaist \[dot] ac \[dot] kr), and here is my [CV (Curriculum Vitae)](https://jinheonbaek.github.io/assets/files/cv.pdf)
+**Jinheon Baek (백진헌)** (jinheon.baek \[at] kaist \[dot] ac \[dot] kr), and here is my [CV (Curriculum Vitae)](/assets/files/cv.pdf)
 
 ---
 
@@ -25,7 +25,7 @@ redirect_from:
 
 During my Ph.D. study, I was privileged to be a research intern at **Microsoft Research** in 2023, working with Dr. [Sujay Kumar Jauhar](https://www.microsoft.com/en-us/research/people/sjauhar/) and Dr. [Silviu Cucerzan](https://www.microsoft.com/en-us/research/people/silviu/), and an applied scientist II intern at **Alexa AI, Amazon** in 2022, working with Prof. [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ), Dr. [Amir Saffari](https://scholar.google.co.uk/citations?user=QJX4mnQAAAAJ), and Prof. [Jens Lehmann](https://scholar.google.com/citations?user=sEaQ5rgAAAAJ).
 
-**My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling the graph-structured knowledge and data, and retrieving them to augment (large) language models for various natural language applications, such as question answering, dialogue, and internet search. You can refer to my [Research Statement: Knowledge-Augmented Large Language Models](https://jinheonbaek.github.io/assets/files/rs.pdf) updated on Sep 11, 2023, if you are interested in.
+**My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling the graph-structured knowledge and data, and retrieving them to augment (large) language models for various natural language applications, such as question answering, dialogue, and internet search. You can refer to my [Research Statement: Knowledge-Augmented Large Language Models](/assets/files/rs.pdf) updated on Sep 11, 2023, if you are interested in.
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -45,8 +45,10 @@ During my Ph.D. study, I was privileged to be a research intern at **Microsoft R
 </div>
 </div> -->
 
+(\* denotes the equal contribution)
+
 - [Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks](https://arxiv.org/abs/2402.13482) \\
-Minju Seo, **Jinheon Baek**, James Thorne, and Sung Ju Hwang \\
+Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity]() \\
@@ -110,7 +112,7 @@ Annual Conference of the North American Chapter of the Association for Computati
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 Annual Meeting of the Association for Computational Linguistics **(ACL), 2022** **(Oral Presentation)** 
 
-- [Toward Accurate Learning of Graph Representations](https://jinheonbaek.github.io/assets/files/master_thesis.pdf) \\
+- [Toward Accurate Learning of Graph Representations](/assets/files/master_thesis.pdf) \\
 **Jinheon Baek** \\
 **Master’s Thesis**, KAIST, 2022
 
