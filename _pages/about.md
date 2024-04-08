@@ -143,7 +143,7 @@ Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang \\
 Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
 # 🎖 Honors and Awards
-- Awarded the Presidential Science Scholarship for Graduate Study, 2024-2025
+- Awarded the Presidential Science Scholarship for Graduate Study, 2024-2026
 - Awarded the Travel Grant from KAIST-Google Partnership Program for WWW 2024
 - Received the Best Poster Presentation Award at Samsung AI Forum 2023
 - Received the Best Paper Award at NLRSE Workshop in ACL 2023
