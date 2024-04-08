@@ -23,7 +23,7 @@ redirect_from:
 
 ---
 
-**I'm a Ph.D. student** in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/), and before that I received a M.S degree of Artifical Intelligence at KAIST in 2022. Prior to studying at KAIST, I received my B.S. (Computer Science and Engineering) degree at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
+**I'm a Ph.D. student** in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/), and before that I received a M.S. degree of Artifical Intelligence at KAIST in 2022. Prior to studying at KAIST, I received my B.S. (Computer Science and Engineering) degree at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
 During my study, I was a research intern at **Microsoft Research** in 2023, working with Dr. [Sujay Kumar Jauhar](https://www.microsoft.com/en-us/research/people/sjauhar/) and Dr. [Silviu Cucerzan](https://www.microsoft.com/en-us/research/people/silviu/), and an applied scientist II intern at **Alexa AI, Amazon** in 2022, working with Prof. [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ), Dr. [Amir Saffari](https://scholar.google.co.uk/citations?user=QJX4mnQAAAAJ), and Prof. [Jens Lehmann](https://scholar.google.com/citations?user=sEaQ5rgAAAAJ).
 
@@ -142,11 +142,24 @@ Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang \\
 **Jinheon Baek**, Dong Bok Lee, and Sung Ju Hwang \\
 Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Honors and Awards
+- Awarded the Presidential Science Scholarship for Graduate Study, 2024-2025
+- Awarded the Travel Grant from KAIST-Google Partnership Program for WWW 2024
+- Received the Best Poster Presentation Award at Samsung AI Forum 2023
+- Received the Best Paper Award at NLRSE Workshop in ACL 2023
+- Awarded the ICML Travel Grant for ICML 2023
+- Awarded the Google Travel Grant for NeurIPS 2022
+- Selected as One of the Top Reviewers (Top 10%) of NeurIPS 2022
+- Selected as One of the Highlighted Reviewers (Top 10%) of ICLR 2022
+- Selected as One of the Best Reviewers (Top 10%) of ICML 2021
+- Received the Best Paper Award at CKAIA 2020
+- Awarded the Samsung Dream Scholarship, 2016-2020
+- Received the First Prize in the Graduation Project Competition at Korea University, 2019
+- Received the Academic Excellence Award (highest GPA) at Korea University, 2019
+- Received the Second Prize for Excellence in the Microsoft Student Partners Activities, 2018
+- Nominated as the Representative of Korean for Excellence in Microsoft Student Partners Activities, 2017
 
-# 📖 Educations
+<!-- # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
