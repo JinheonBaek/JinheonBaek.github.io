@@ -49,6 +49,10 @@ During my study, I was a research intern at **Microsoft Research** in 2023, work
 
 (\* denotes the equal contribution)
 
+- [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://arxiv.org/abs/2404.07738) \\
+**Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
+arXiv preprint
+
 - [Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks](https://arxiv.org/abs/2402.13482) \\
 Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
 arXiv preprint
