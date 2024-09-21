@@ -25,9 +25,9 @@ redirect_from:
 
 **I'm a Ph.D. student** in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/), and before that I received a M.S. degree of Artifical Intelligence at KAIST in 2022. Prior to studying at KAIST, I received my B.S. (Computer Science and Engineering) degree at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
-During my study, I was a research intern at **Microsoft Research** in 2023, working with Dr. [Sujay Kumar Jauhar](https://www.microsoft.com/en-us/research/people/sjauhar/) and Dr. [Silviu Cucerzan](https://www.microsoft.com/en-us/research/people/silviu/), and an applied scientist II intern at **Alexa AI, Amazon** in 2022, working with Prof. [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ), Dr. [Amir Saffari](https://scholar.google.co.uk/citations?user=QJX4mnQAAAAJ), and Prof. [Jens Lehmann](https://scholar.google.com/citations?user=sEaQ5rgAAAAJ).
+Currently, I am a research intern at **Google Gemini**. Previously, I worked as a research intern at **IBM Research** in 2024, a research intern at **Microsoft Research** in 2023, and an applied scientist II intern at **Alexa AI, Amazon** in 2022, collaborating with wonderful mentors.
 
-**My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling the structured knowledge and data, and retrieving them to augment (large) language models for various natural language applications. You can refer to my [Research Statement: Knowledge-Augmented Large Language Models](/assets/files/rs.pdf), if you are interested in.
+**My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. You can refer to my [Research Statement: Augmenting Large Language Models with External Knowledge](/assets/files/rs.pdf), if interested in.
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -57,7 +57,27 @@ arXiv preprint
 Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
 arXiv preprint
 
-- [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity]() \\
+- [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
+Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
+arXiv preprint
+
+- [The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models](https://arxiv.org/abs/2406.05761) \\
+Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, **Jinheon Baek**, ..., Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo \\
+arXiv preprint
+
+- [CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark](https://arxiv.org/abs/2406.05967) \\
+David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
+arXiv preprint
+
+- [An Empirical Study of Multilingual Reasoning Distillation for Question Answering]() \\
+Patomporn Payoungkhamdee, Peerat Limkonchotiwat, **Jinheon Baek**, Potsawee Manakul, Can Udomcharoenchaikit, Ekapol Chuangsuwanich, and Sarana Nutanong \\
+Empirical Methods in Natural Language Processing **(EMNLP), 2024**
+
+- [Rethinking Code Refinement: Learning to Judge Code Efficiency]() \\
+Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
+Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2024**
+
+- [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 Conference of the North American Chapter of the Association for Computational Linguistics **(NAACL), 2024**
 
