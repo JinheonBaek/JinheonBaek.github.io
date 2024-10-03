@@ -67,14 +67,14 @@ arXiv preprint
 
 - [CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark](https://arxiv.org/abs/2406.05967) \\
 David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
-arXiv preprint
+Conference on Neural Information Processing Systems **(NeurIPS), 2024** **(Oral Presentation)**
 
 - [An Empirical Study of Multilingual Reasoning Distillation for Question Answering]() \\
 Patomporn Payoungkhamdee, Peerat Limkonchotiwat, **Jinheon Baek**, Potsawee Manakul, Can Udomcharoenchaikit, Ekapol Chuangsuwanich, and Sarana Nutanong \\
 Empirical Methods in Natural Language Processing **(EMNLP), 2024**
 
 - [Rethinking Code Refinement: Learning to Judge Code Efficiency]() \\
-Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
+Minju Seo, **Jinheon Baek**\*, and Sung Ju Hwang \\
 Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2024**
 
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403) \\
