@@ -53,8 +53,8 @@ Currently, I am a research intern at **Google Gemini**. Previously, I worked as 
 **Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
 arXiv preprint
 
-- [Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks](https://arxiv.org/abs/2402.13482) \\
-Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
+- [Unified Multi-Modal Interleaved Document Representation for Information Retrieval](https://arxiv.org/abs/2410.02729) \\
+Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
@@ -69,12 +69,16 @@ arXiv preprint
 David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
 Conference on Neural Information Processing Systems **(NeurIPS), 2024** **(Oral Presentation)**
 
+- [Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks](https://arxiv.org/abs/2402.13482) \\
+Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
+Adaptive Foundation Models Workshop at NeurIPS **(AFM @ NeurIPS), 2024**
+
 - [An Empirical Study of Multilingual Reasoning Distillation for Question Answering]() \\
 Patomporn Payoungkhamdee, Peerat Limkonchotiwat, **Jinheon Baek**, Potsawee Manakul, Can Udomcharoenchaikit, Ekapol Chuangsuwanich, and Sarana Nutanong \\
 Empirical Methods in Natural Language Processing **(EMNLP), 2024**
 
 - [Rethinking Code Refinement: Learning to Judge Code Efficiency]() \\
-Minju Seo, **Jinheon Baek**\*, and Sung Ju Hwang \\
+Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
 Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2024**
 
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403) \\
