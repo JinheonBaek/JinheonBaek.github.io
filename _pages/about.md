@@ -25,7 +25,7 @@ redirect_from:
 
 **I'm a Ph.D. student** in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/), and before that I received a M.S. degree of Artifical Intelligence at KAIST in 2022. Prior to studying at KAIST, I received my B.S. (Computer Science and Engineering) degree at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
-Currently, I am a research intern at **Google Gemini**. Previously, I worked as a research intern at **IBM Research** in 2024, a research intern at **Microsoft Research** in 2023, and an applied scientist II intern at **Alexa AI, Amazon** in 2022, collaborating with wonderful mentors.
+Previously, I worked as research intern at **Google DeepMind (Gemini)** in 2024, a research intern at **IBM Research** in 2024, a research intern at **Microsoft Research** in 2023, and an applied scientist II intern at **Amazon (Alexa AI)** in 2022, collaborating with wonderful mentors.
 
 **My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. You can refer to my [Research Statement: Augmenting Large Language Models with External Knowledge](/assets/files/rs.pdf), if interested in.
 
@@ -49,21 +49,41 @@ Currently, I am a research intern at **Google Gemini**. Previously, I worked as 
 
 (\* denotes the equal contribution)
 
-- [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://arxiv.org/abs/2404.07738) \\
-**Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
+- [Revisiting In-Context Learning with Long Context Language Models](https://arxiv.org/abs/2412.16926) \\
+**Jinheon Baek**, Sun Jae Lee, Prakhar Gupta, Geunseob Oh, Siddharth Dalmia, and Prateek Kolhar \\
 arXiv preprint
 
-- [Unified Multi-Modal Interleaved Document Representation for Information Retrieval](https://arxiv.org/abs/2410.02729) \\
+- [Knowledge Base Construction for Knowledge-Augmented Text-to-SQL]() \\
+**Jinheon Baek**, Horst Samulowitz, Oktie Hassanzadeh, Dharmashankar Subramanian, Sola Shirai, Alfio Gliozzo, and Debarun Bhattacharjya \\
+arXiv preprint
+
+- [VideoRAG: Retrieval-Augmented Generation over Video Corpus](https://arxiv.org/abs/2501.05874) \\
+Soyeong Jeong\*, Kangsan Kim\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
+arXiv preprint
+
+- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
 Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
+arXiv preprint
+
+- [Efficient Long Context Language Model Retrieval with Compression](https://arxiv.org/abs/2412.18232) \\
+Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+arXiv preprint
+
+- [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
+Joonho Ko, **Jinheon Baek**, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 arXiv preprint
 
+- [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://arxiv.org/abs/2404.07738) \\
+**Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025**
+
 - [The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models](https://arxiv.org/abs/2406.05761) \\
 Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, **Jinheon Baek**, ..., Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo \\
-arXiv preprint
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025**
 
 - [CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark](https://arxiv.org/abs/2406.05967) \\
 David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
@@ -73,11 +93,11 @@ Conference on Neural Information Processing Systems **(NeurIPS), 2024** **(Oral 
 Minju Seo\*, **Jinheon Baek**\*, James Thorne, and Sung Ju Hwang \\
 Adaptive Foundation Models Workshop at NeurIPS **(AFM @ NeurIPS), 2024**
 
-- [An Empirical Study of Multilingual Reasoning Distillation for Question Answering]() \\
+- [An Empirical Study of Multilingual Reasoning Distillation for Question Answering](https://aclanthology.org/2024.emnlp-main.442/) \\
 Patomporn Payoungkhamdee, Peerat Limkonchotiwat, **Jinheon Baek**, Potsawee Manakul, Can Udomcharoenchaikit, Ekapol Chuangsuwanich, and Sarana Nutanong \\
 Empirical Methods in Natural Language Processing **(EMNLP), 2024**
 
-- [Rethinking Code Refinement: Learning to Judge Code Efficiency]() \\
+- [Rethinking Code Refinement: Learning to Judge Code Efficiency](https://arxiv.org/abs/2410.22375) \\
 Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
 Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2024**
 
