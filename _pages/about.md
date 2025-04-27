@@ -23,11 +23,11 @@ redirect_from:
 
 ---
 
-**I'm a Ph.D. student** in the Graduate school of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/), and before that I received a M.S. degree of Artifical Intelligence at KAIST in 2022. Prior to studying at KAIST, I received my B.S. (Computer Science and Engineering) degree at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
+**I'm a Ph.D. student** in the Graduate School of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). Before that, I received an M.S. degree in Artificial Intelligence at KAIST in 2022. Prior to studying at KAIST, I earned my B.S. degree in Computer Science and Engineering at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
-Previously, I worked as research intern at **Google DeepMind (Gemini)** in 2024, a research intern at **IBM Research** in 2024, a research intern at **Microsoft Research** in 2023, and an applied scientist II intern at **Amazon (Alexa AI)** in 2022, collaborating with wonderful mentors.
+Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 2024, as a research intern at **IBM Research** in 2024, as a research intern at **Microsoft Research** in 2023, and as an applied scientist II intern at **Amazon (Alexa AI)** in 2022, collaborating with wonderful mentors.
 
-**My primary research interest** lies in the area of machine learning for languages, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. You can refer to my [Research Statement: Augmenting Large Language Models with External Knowledge](/assets/files/rs.pdf), if interested in.
+**My primary research interest** lies in the area of machine learning for language, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. You can refer to my [Research Statement: Augmenting Large Language Models with External Knowledge](/assets/files/rs.pdf), if interested in.
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
