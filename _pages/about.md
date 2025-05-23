@@ -49,24 +49,24 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 (\* denotes the equal contribution)
 
-- [Revisiting In-Context Learning with Long Context Language Models](https://arxiv.org/abs/2412.16926) \\
-**Jinheon Baek**, Sun Jae Lee, Prakhar Gupta, Geunseob Oh, Siddharth Dalmia, and Prateek Kolhar \\
-arXiv preprint
-
-- [Knowledge Base Construction for Knowledge-Augmented Text-to-SQL]() \\
-**Jinheon Baek**, Horst Samulowitz, Oktie Hassanzadeh, Dharmashankar Subramanian, Sola Shirai, Alfio Gliozzo, and Debarun Bhattacharjya \\
-arXiv preprint
-
-- [VideoRAG: Retrieval-Augmented Generation over Video Corpus](https://arxiv.org/abs/2501.05874) \\
-Soyeong Jeong\*, Kangsan Kim\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
+- [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
+Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
 Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
-- [Efficient Long Context Language Model Retrieval with Compression](https://arxiv.org/abs/2412.18232) \\
+- [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+arXiv preprint
+
+- [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
+Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, Sung Ju Hwang \\
+arXiv preprint
+
+- [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/abs/2503.05179) \\
+Simon A. Aytes, **Jinheon Baek**, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
@@ -77,13 +77,33 @@ arXiv preprint
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 arXiv preprint
 
+- [Efficient Long Context Language Model Retrieval with Compression](https://arxiv.org/abs/2412.18232) \\
+Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+Annual Meeting of the Association for Computational Linguistics **(ACL), 2025**
+
+- [Revisiting In-Context Learning with Long Context Language Models](https://arxiv.org/abs/2412.16926) \\
+**Jinheon Baek**, Sun Jae Lee, Prakhar Gupta, Geunseob Oh, Siddharth Dalmia, and Prateek Kolhar \\
+Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
+
+- [Knowledge Base Construction for Knowledge-Augmented Text-to-SQL]() \\
+**Jinheon Baek**, Horst Samulowitz, Oktie Hassanzadeh, Dharmashankar Subramanian, Sola Shirai, Alfio Gliozzo, and Debarun Bhattacharjya \\
+Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
+
+- [VideoRAG: Retrieval-Augmented Generation over Video Corpus](https://arxiv.org/abs/2501.05874) \\
+Soyeong Jeong\*, Kangsan Kim\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
+Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
+
+- [Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments](https://arxiv.org/abs/2502.17956) \\
+Patomporn Payoungkhamdee, Pume Tuchinda, **Jinheon Baek**, Samuel Cahyawijaya, Can Udomcharoenchaikit, Potsawee Manakul, Peerat Limkonchotiwat, Ekapol Chuangsuwanich, and Sarana Nutanong \\
+Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
+
 - [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://arxiv.org/abs/2404.07738) \\
 **Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
-Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025**
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(Oral Presentation)**
 
 - [The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models](https://arxiv.org/abs/2406.05761) \\
 Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, **Jinheon Baek**, ..., Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo \\
-Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025**
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(Best Paper)**
 
 - [CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark](https://arxiv.org/abs/2406.05967) \\
 David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
@@ -99,7 +119,7 @@ Empirical Methods in Natural Language Processing **(EMNLP), 2024**
 
 - [Rethinking Code Refinement: Learning to Judge Code Efficiency](https://arxiv.org/abs/2410.22375) \\
 Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
-Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2024**
+Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings), 2024**
 
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
@@ -115,7 +135,7 @@ Empirical Methods in Natural Language Processing **(EMNLP), 2023**
 
 - [Test-Time Self-Adaptive Small Language Models for Question Answering](https://arxiv.org/abs/2310.13307) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
-Findings of Empirical Methods in Natural Language Processing **(Findings of EMNLP), 2023**
+Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings), 2023**
 
 - [Knowledge-Augmented Reasoning Distillation for Small Language Models in Knowledge-Intensive Tasks](https://arxiv.org/abs/2305.18395) \\
 Minki Kang, Seanie Lee, **Jinheon Baek**, Kenji Kawaguchi, and Sung Ju Hwang \\
@@ -127,7 +147,7 @@ Annual Meeting of the Association for Computational Linguistics **(ACL), 2023**
 
 - [Phrase Retrieval for Open-Domain Conversational Question Answering with Conversational Dependency Modeling via Contrastive Learning](https://arxiv.org/abs/2306.04293) \\
 Soyeong Jeong, **Jinheon Baek**, Sung Ju Hwang, and Jong C. Park \\
-Findings of the Association for Computational Linguistics **(Findings of ACL), 2023**
+Findings of the Association for Computational Linguistics **(ACL Findings), 2023**
 
 - [Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering](https://arxiv.org/abs/2306.04136) \\
 **Jinheon Baek**, Alham Fikri Aji, and Amir Saffari \\
@@ -192,6 +212,9 @@ Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
 # 🎖 Honors and Awards
 - Awarded the Presidential Science Scholarship for Graduate Study, 2024-2026
+- Selected as One of the Great Reviewers within ACL ARR 2024–2025 Cycles
+- Received the Best Paper Award at NAACL 2025
+- Received the 3rd Place Poster Presentation Award at Citadel \| Citadel Securities PhD Summit, 2025
 - Awarded the Travel Grant from KAIST-Google Partnership Program for WWW 2024
 - Received the Best Poster Presentation Award at Samsung AI Forum 2023
 - Received the Best Paper Award at NLRSE Workshop in ACL 2023
