@@ -53,10 +53,6 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
 arXiv preprint
 
-- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
-Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
-arXiv preprint
-
 - [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
 arXiv preprint
@@ -67,15 +63,23 @@ arXiv preprint
 
 - [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/abs/2503.05179) \\
 Simon A. Aytes, **Jinheon Baek**, and Sung Ju Hwang \\
-arXiv preprint
+Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
 Joonho Ko, **Jinheon Baek**, and Sung Ju Hwang \\
-arXiv preprint
+Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
-arXiv preprint
+Empirical Methods in Natural Language Processing **(EMNLP), 2025**
+
+- [CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation](https://arxiv.org/abs/2505.24456) \\
+Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, ..., Jinheon Baek, ..., Soyeong Jeong, ..., Injy Hamed, Atnafu Lambebo Tonja, and Thamar Solorio \\
+Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings), 2025**
+
+- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
+Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
+Vector Databases Workshop at ICML **(VecDB @ ICML), 2025**
 
 - [Efficient Long Context Language Model Retrieval with Compression](https://arxiv.org/abs/2412.18232) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
@@ -85,7 +89,7 @@ Annual Meeting of the Association for Computational Linguistics **(ACL), 2025**
 **Jinheon Baek**, Sun Jae Lee, Prakhar Gupta, Geunseob Oh, Siddharth Dalmia, and Prateek Kolhar \\
 Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
 
-- [Knowledge Base Construction for Knowledge-Augmented Text-to-SQL]() \\
+- [Knowledge Base Construction for Knowledge-Augmented Text-to-SQL](https://arxiv.org/abs/2505.22096) \\
 **Jinheon Baek**, Horst Samulowitz, Oktie Hassanzadeh, Dharmashankar Subramanian, Sola Shirai, Alfio Gliozzo, and Debarun Bhattacharjya \\
 Findings of the Association for Computational Linguistics **(ACL Findings), 2025**
 
