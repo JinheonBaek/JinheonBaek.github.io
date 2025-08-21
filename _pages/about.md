@@ -63,15 +63,15 @@ arXiv preprint
 
 - [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/abs/2503.05179) \\
 Simon A. Aytes, **Jinheon Baek**, and Sung Ju Hwang \\
-Empirical Methods in Natural Language Processing **(EMNLP), 2025**
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
 Joonho Ko, **Jinheon Baek**, and Sung Ju Hwang \\
-Empirical Methods in Natural Language Processing **(EMNLP), 2025**
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
-Empirical Methods in Natural Language Processing **(EMNLP), 2025**
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation](https://arxiv.org/abs/2505.24456) \\
 Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, ..., Jinheon Baek, ..., Soyeong Jeong, ..., Injy Hamed, Atnafu Lambebo Tonja, and Thamar Solorio \\
@@ -119,7 +119,7 @@ Adaptive Foundation Models Workshop at NeurIPS **(AFM @ NeurIPS), 2024**
 
 - [An Empirical Study of Multilingual Reasoning Distillation for Question Answering](https://aclanthology.org/2024.emnlp-main.442/) \\
 Patomporn Payoungkhamdee, Peerat Limkonchotiwat, **Jinheon Baek**, Potsawee Manakul, Can Udomcharoenchaikit, Ekapol Chuangsuwanich, and Sarana Nutanong \\
-Empirical Methods in Natural Language Processing **(EMNLP), 2024**
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2024**
 
 - [Rethinking Code Refinement: Learning to Judge Code Efficiency](https://arxiv.org/abs/2410.22375) \\
 Minju Seo, **Jinheon Baek**, and Sung Ju Hwang \\
@@ -135,7 +135,7 @@ The Web Conference **(WWW), 2024**
 
 - [Knowledge-Augmented Language Model Verification](https://arxiv.org/abs/2310.12836) \\
 **Jinheon Baek**, Soyeong Jeong, Minki Kang, Jong C. Park, and Sung Ju Hwang \\
-Empirical Methods in Natural Language Processing **(EMNLP), 2023**
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2023**
 
 - [Test-Time Self-Adaptive Small Language Models for Question Answering](https://arxiv.org/abs/2310.13307) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
