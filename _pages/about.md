@@ -74,7 +74,7 @@ Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation](https://arxiv.org/abs/2505.24456) \\
-Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, ..., Jinheon Baek, ..., Soyeong Jeong, ..., Injy Hamed, Atnafu Lambebo Tonja, and Thamar Solorio \\
+Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Injy Hamed, Atnafu Lambebo Tonja, and Thamar Solorio \\
 Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings), 2025**
 
 - [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
