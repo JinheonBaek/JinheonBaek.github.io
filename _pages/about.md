@@ -216,7 +216,8 @@ Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
 # 🎖 Honors and Awards
 - Awarded the Presidential Science Scholarship for Graduate Study, 2024-2026
-- Selected as One of the Great Reviewers within ACL ARR 2024–2025 Cycles
+- Selected as One of the Great Reviewers within ACL ARR 2024–2025 Cycles (Multiple Times)
+- Quoted in Nature (2025) for Expert Commentary on AI-Generated Research [(Link)](https://www.nature.com/articles/d41586-025-02616-5)
 - Received the Best Paper Award at NAACL 2025
 - Received the 3rd Place Poster Presentation Award at Citadel \| Citadel Securities PhD Summit, 2025
 - Awarded the Travel Grant from KAIST-Google Partnership Program for WWW 2024
