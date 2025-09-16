@@ -61,16 +61,16 @@ arXiv preprint
 Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, Sung Ju Hwang \\
 arXiv preprint
 
+- [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
+Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
+Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025** **(Oral Presentation)**
+
 - [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/abs/2503.05179) \\
 Simon A. Aytes, **Jinheon Baek**, and Sung Ju Hwang \\
 Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
 Joonho Ko, **Jinheon Baek**, and Sung Ju Hwang \\
-Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
-
-- [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
-Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
 Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
 - [CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation](https://arxiv.org/abs/2505.24456) \\
