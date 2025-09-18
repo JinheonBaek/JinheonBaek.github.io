@@ -49,10 +49,6 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 (\* denotes the equal contribution)
 
-- [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
-Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
-arXiv preprint
-
 - [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
 arXiv preprint
@@ -60,6 +56,10 @@ arXiv preprint
 - [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
 Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, Sung Ju Hwang \\
 arXiv preprint
+
+- [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
+Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
+Conference on Neural Information Processing Systems **(NeurIPS), 2025**
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
