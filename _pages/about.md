@@ -69,7 +69,7 @@ Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 Simon A. Aytes, **Jinheon Baek**, and Sung Ju Hwang \\
 Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
-- [Real-time Verification and Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
+- [Efficient Real-time Refinement of Language Model Text Generation](https://arxiv.org/abs/2501.07824) \\
 Joonho Ko, **Jinheon Baek**, and Sung Ju Hwang \\
 Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 
