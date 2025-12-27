@@ -23,11 +23,11 @@ redirect_from:
 
 ---
 
-**I'm a Ph.D. student** in the Graduate School of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). Before that, I received an M.S. degree in Artificial Intelligence at KAIST in 2022. Prior to studying at KAIST, I earned my B.S. degree in Computer Science and Engineering at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
+**I am a recent Ph.D. graduate** from the Graduate School of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). Before that, I received an M.S. degree in Artificial Intelligence at KAIST in 2022. Prior to studying at KAIST, I earned my B.S. degree in Computer Science and Engineering at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
 Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 2024, as a research intern at **IBM Research** in 2024, as a research intern at **Microsoft Research** in 2023, and as an applied scientist II intern at **Amazon (Alexa AI)** in 2022, collaborating with wonderful mentors.
 
-**My primary research interest** lies in the area of machine learning for language, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. You can refer to my [Research Statement: Augmenting Large Language Models with External Knowledge](/assets/files/rs.pdf), if interested in.
+**My primary research interest** lies in the area of machine learning for language, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. If interested, you may refer to my [Ph.D. Dissertation](/assets/files/phd_thesis.pdf), [Defense Slides](/assets/files/defense_slides.pdf), and earlier [Research Statement (updated Apr 2024)](/assets/files/rs.pdf).
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -49,17 +49,29 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 (\* denotes the equal contribution)
 
-- [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
-Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+- [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
+Yumin Choi\*, Dongki Kim\*, **Jinheon Baek**, and Sung Ju Hwang \\
+arXiv preprint
+
+- [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
+Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
 arXiv preprint
 
 - [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
-Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, Sung Ju Hwang \\
+Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, and Sung Ju Hwang \\
+arXiv preprint
+
+- [Chain of Retrieval: Multi-Aspect Iterative Search Expansion and Post-Order Search Aggregation for Full Paper Retrieval](https://arxiv.org/abs/2507.10057) \\
+Sangwoo Park, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
 - [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
 Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
 Conference on Neural Information Processing Systems **(NeurIPS), 2025**
+
+- [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
+Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+Deep Learning for Code Workshop at NeurIPS **(DL4C @ NeurIPS), 2025**
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
