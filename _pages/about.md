@@ -29,6 +29,8 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 **My primary research interest** lies in the area of machine learning for language, knowledge, and their intersections at scale. Previous work includes modeling interconnected data structures (texts and graphs), and retrieving them to augment language models for practical natural language applications. If interested, you may refer to my [Ph.D. Dissertation](/assets/files/phd_thesis.pdf), [Defense Slides](/assets/files/defense_slides.pdf), and earlier [Research Statement (updated Apr 2024)](/assets/files/rs.pdf).
 
+If you are interested in or find alignment with my research, feel free to reach out for a coffee chat or potential collaboration. I am open to a conversation when timing works out ([see my availability here](https://calendar.google.com/calendar/u/0/embed?src=jinheon.baek@gmail.com&mode=week)).
+
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
