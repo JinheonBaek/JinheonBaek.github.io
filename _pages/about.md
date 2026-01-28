@@ -49,10 +49,6 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 (\* denotes the equal contribution)
 
-- [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
-Yumin Choi\*, Dongki Kim\*, **Jinheon Baek**, and Sung Ju Hwang \\
-arXiv preprint
-
 - [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
 Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
 arXiv preprint
@@ -65,13 +61,23 @@ arXiv preprint
 Sangwoo Park, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
-- [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
-Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
-Conference on Neural Information Processing Systems **(NeurIPS), 2025**
+- [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
+Yumin Choi\*, Dongki Kim\*, **Jinheon Baek**, and Sung Ju Hwang \\
+International Conference on Learning Representations **(ICLR), 2026** 
 
 - [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+International Conference on Learning Representations **(ICLR), 2026** \\
 Deep Learning for Code Workshop at NeurIPS **(DL4C @ NeurIPS), 2025**
+
+- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
+Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
+Conference of the European Chapter of the Association for Computational Linguistics **(EACL), 2026** \\
+Vector Databases Workshop at ICML **(VecDB @ ICML), 2025**
+
+- [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
+Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
+Conference on Neural Information Processing Systems **(NeurIPS), 2025**
 
 - [Database-Augmented Query Representation for Information Retrieval](https://arxiv.org/abs/2406.16013) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
@@ -88,10 +94,6 @@ Conference on Empirical Methods in Natural Language Processing **(EMNLP), 2025**
 - [CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation](https://arxiv.org/abs/2505.24456) \\
 Emilio Villa-Cueva, Sholpan Bolatzhanova, Diana Turmakhan, Kareem Elzeky, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Injy Hamed, Atnafu Lambebo Tonja, and Thamar Solorio \\
 Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings), 2025**
-
-- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
-Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
-Vector Databases Workshop at ICML **(VecDB @ ICML), 2025**
 
 - [Efficient Long Context Language Model Retrieval with Compression](https://arxiv.org/abs/2412.18232) \\
 Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
