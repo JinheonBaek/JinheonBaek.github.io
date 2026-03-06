@@ -23,7 +23,7 @@ redirect_from:
 
 ---
 
-**I am a recent Ph.D. graduate** from the Graduate School of AI at KAIST [(MLAI Lab)](https://www.mlai-kaist.com/), where I am fortunate to be advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). Before that, I received an M.S. degree in Artificial Intelligence at KAIST in 2022. Prior to studying at KAIST, I earned my B.S. degree in Computer Science and Engineering at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
+**I am a Research Fellow (Postdoctoral)** from LLM Innovation Research Center (InnoCORE) with Information & Electronics Research Institute at KAIST, where I am working with Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/) and his research group [(MLAI Lab)](https://www.mlai-kaist.com/). Before that, I received a Ph.D. degree in Artificial Intelligence at KAIST in 2026, and an M.S. degree in Artificial Intelligence at KAIST in 2022, advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). Prior to studying at KAIST, I earned my B.S. degree in Computer Science and Engineering at Korea University in 2020, where I studied machine learning under the guidance of Prof. [Jaewoo Kang](https://dmis.korea.ac.kr/jaewoo-kang-p-i). 
 
 Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 2024, as a research intern at **IBM Research** in 2024, as a research intern at **Microsoft Research** in 2023, and as an applied scientist II intern at **Amazon (Alexa AI)** in 2022, collaborating with wonderful mentors.
 
@@ -31,25 +31,9 @@ Previously, I worked as a research intern at **Google DeepMind (Gemini)** in 202
 
 If you are interested in or find alignment with my research, feel free to reach out for a coffee chat or potential collaboration. I am open to a conversation when timing works out ([see my availability here](https://calendar.google.com/calendar/u/0/embed?src=jinheon.baek@gmail.com&mode=week)).
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
 # 📝 Publications 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
-
-(\* denotes the equal contribution)
+(\* denotes the equal contribution; † denotes the equal advising)
 
 - [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
 Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
@@ -64,11 +48,11 @@ Sangwoo Park, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
 - [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
-Yumin Choi\*, Dongki Kim\*, **Jinheon Baek**, and Sung Ju Hwang \\
+Yumin Choi\*, Dongki Kim\*, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
 International Conference on Learning Representations **(ICLR), 2026** 
 
 - [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) \\
-Minju Seo, **Jinheon Baek**, Seongyun Lee, and Sung Ju Hwang \\
+Minju Seo, **Jinheon Baek<sup>†</sup>**, Seongyun Lee, and Sung Ju Hwang<sup>†</sup> \\
 International Conference on Learning Representations **(ICLR), 2026** \\
 Deep Learning for Code Workshop at NeurIPS **(DL4C @ NeurIPS), 2025**
 
