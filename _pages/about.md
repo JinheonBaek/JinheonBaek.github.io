@@ -215,7 +215,7 @@ Hyunjae Kim\*, Yookyung Koh\*, **Jinheon Baek**, and Jaewoo Kang \\
 Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
 # 🎖 Honors and Awards
-- Selected for the Sejong Science Fellowship for Postdoctoral Research, 2026-2031
+- Received the Sejong Science Fellowship for Postdoctoral Research, 2026-2031
 - Awarded the Presidential Science Scholarship for Graduate Study, 2024-2026
 - Selected as One of the Great Reviewers within ACL ARR 2024–2025 Cycles (Multiple Times)
 - Quoted in Nature (2025) for Expert Commentary on AI-Generated Research [(Link)](https://www.nature.com/articles/d41586-025-02616-5)
