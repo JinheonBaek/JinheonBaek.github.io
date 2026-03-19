@@ -56,7 +56,7 @@ Minju Seo, **Jinheon Baek<sup>â€ </sup>**, Seongyun Lee, and Sung Ju Hwang<sup>â
 International Conference on Learning Representations **(ICLR), 2026** \\
 Deep Learning for Code Workshop at NeurIPS **(DL4C @ NeurIPS), 2025**
 
-- [Unified Multi-Modal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
+- [Unified Multimodal Interleaved Document Representation for Retrieval](https://arxiv.org/abs/2410.02729) \\
 Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
 Findings of the European Chapter of the Association for Computational Linguistics **(EACL Findings), 2026** \\
 Vector Databases Workshop at ICML **(VecDB @ ICML), 2025**
