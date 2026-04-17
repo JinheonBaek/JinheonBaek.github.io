@@ -103,11 +103,12 @@ Findings of the Association for Computational Linguistics **(ACL Findings), 2025
 
 - [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://arxiv.org/abs/2404.07738) \\
 **Jinheon Baek**, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang \\
-Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(Oral Presentation)**
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(Oral Presentation)** \\
+**🏆 5th Most Influential NAACL Paper** ([Paper Digest](https://www.paperdigest.org/2026/03/most-influential-naacl-papers-2026-03-version/), 2026.03)
 
 - [The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models](https://arxiv.org/abs/2406.05761) \\
 Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, **Jinheon Baek**, ..., Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo \\
-Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(Best Paper)**
+Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics **(NAACL), 2025** **(🏆 Best Paper)**
 
 - [CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark](https://arxiv.org/abs/2406.05967) \\
 David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, ..., **Jinheon Baek**, ..., Soyeong Jeong, ..., Thamar Solorio, and Alham Fikri Aji \\
@@ -127,7 +128,8 @@ Findings of Empirical Methods in Natural Language Processing **(EMNLP Findings),
 
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403) \\
 Soyeong Jeong, **Jinheon Baek**, Sukmin Cho, Sung Ju Hwang, and Jong C. Park \\
-Conference of the North American Chapter of the Association for Computational Linguistics **(NAACL), 2024**
+Conference of the North American Chapter of the Association for Computational Linguistics **(NAACL), 2024** \\
+**🏆 3rd Most Influential NAACL Paper** ([Paper Digest](https://www.paperdigest.org/2026/03/most-influential-naacl-papers-2026-03-version/), 2026.03)
 
 - [Knowledge-Augmented Large Language Models for Personalized Contextual Query Suggestion](https://arxiv.org/abs/2311.06318) \\
 **Jinheon Baek**, Nirupama Chandrasekaran, Silviu Cucerzan, Allen herring, and Sujay Kumar Jauhar \\
@@ -155,7 +157,7 @@ Findings of the Association for Computational Linguistics **(ACL Findings), 2023
 
 - [Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering](https://arxiv.org/abs/2306.04136) \\
 **Jinheon Baek**, Alham Fikri Aji, and Amir Saffari \\
-Natural Language Reasoning and Structured Explanations Workshop at ACL **(NLRSE @ ACL), 2023** **(Best Paper)** \\
+Natural Language Reasoning and Structured Explanations Workshop at ACL **(NLRSE @ ACL), 2023** **(🏆 Best Paper)** \\
 Matching from Unstructured and Structured Data Workshop at ACL **(MATCHING @ ACL), 2023** **(Oral Presentation)**
 
 - [Personalized Subgraph Federated Learning](https://arxiv.org/abs/2206.10206) \\
