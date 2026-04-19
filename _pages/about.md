@@ -39,13 +39,13 @@ If you are interested in or find alignment with my research, feel free to reach 
 Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
 arXiv preprint
 
-- [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
-Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek**, and Sung Ju Hwang \\
-arXiv preprint
-
 - [Chain of Retrieval: Multi-Aspect Iterative Search Expansion and Post-Order Search Aggregation for Full Paper Retrieval](https://arxiv.org/abs/2507.10057) \\
 Sangwoo Park, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
+
+- [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
+Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
+Annual Meeting of the Association for Computational Linguistics **(ACL), 2026**
 
 - [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
 Yumin Choi\*, Dongki Kim\*, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
