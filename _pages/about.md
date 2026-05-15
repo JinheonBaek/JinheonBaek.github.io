@@ -35,6 +35,10 @@ If you are interested in or find alignment with my research, feel free to reach 
 
 (\* denotes the equal contribution; † denotes the equal advising)
 
+- [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880) \\
+Yumin Choi, Sangwoo Park, Minki Kang, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
+arXiv preprint
+
 - [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
 Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
 arXiv preprint
@@ -218,8 +222,9 @@ Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 
 # 🎖 Honors and Awards
 - Received the Sejong Science Fellowship for Postdoctoral Research, 2026-2031
+- Selected as a Gold Reviewer (Top 25%) for ICML 2026
 - Awarded the Presidential Science Scholarship for Graduate Study, 2024-2026
-- Selected as One of the Great Reviewers within ACL ARR 2024–2025 Cycles (Multiple Times)
+- Selected as a Great Reviewer in ACL ARR 2024-2025 Cycles (Multiple Times)
 - Quoted in Nature (2025) for Expert Commentary on AI-Generated Research [(Link)](https://www.nature.com/articles/d41586-025-02616-5)
 - Received the Best Paper Award at NAACL 2025
 - Received the 3rd Place Poster Presentation Award at Citadel \| Citadel Securities PhD Summit, 2025
@@ -228,9 +233,9 @@ Conference on Neural Information Processing Systems **(NeurIPS), 2020**
 - Received the Best Paper Award at NLRSE Workshop in ACL 2023
 - Awarded the ICML Travel Grant for ICML 2023
 - Awarded the Google Travel Grant for NeurIPS 2022
-- Selected as One of the Top Reviewers (Top 10%) of NeurIPS 2022
-- Selected as One of the Highlighted Reviewers (Top 10%) of ICLR 2022
-- Selected as One of the Best Reviewers (Top 10%) of ICML 2021
+- Selected as a Top Reviewer (Top 10%) for NeurIPS 2022
+- Selected as a Highlighted Reviewer (Top 10%) for ICLR 2022
+- Selected as a Best Reviewer (Top 10%) for ICML 2021
 - Received the Best Paper Award at CKAIA 2020
 - Awarded the Samsung Dream Scholarship, 2016-2020
 - Received the First Prize in the Graduation Project Competition at Korea University, 2019
