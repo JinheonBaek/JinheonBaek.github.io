@@ -39,6 +39,14 @@ If you are interested in or find alignment with my research, feel free to reach 
 Yumin Choi, Sangwoo Park, Minki Kang, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
 arXiv preprint
 
+- [It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs](https://arxiv.org/abs/2605.20258) \\
+Sangwoo Park\*, Woongyeong Yeo\*, Seanie Lee, Yumin Choi, Hyomin Lee, Kangsan Kim, **Jinheon Baek<sup>†</sup>**, Seong Joon Oh<sup>†</sup>, and Sung Ju Hwang<sup>†</sup> \\
+arXiv preprint
+
+- [On the Limits and Opportunities of AI Reviewers: Reviewing the Reviews of Nature-Family Papers with 45 Expert Scientists](https://arxiv.org/abs/2605.20668) \\
+Seungone Kim, Dongkeun Yoon, Kiril Gashteovski, Juyoung Suk, **Jinheon Baek**, Pranjal Aggarwal, Ian Wu, ..., Carolin Lawrence, Xiang Yue, Alice Oh, Akari Asai, Sean Welleck, and Graham Neubig \\
+arXiv preprint
+
 - [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
 Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
 arXiv preprint
@@ -49,7 +57,7 @@ arXiv preprint
 
 - [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
 Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
-Annual Meeting of the Association for Computational Linguistics **(ACL), 2026**
+Annual Meeting of the Association for Computational Linguistics **(ACL), 2026** **(Oral Presentation)**
 
 - [Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs](https://arxiv.org/abs/2510.09201) \\
 Yumin Choi\*, Dongki Kim\*, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
