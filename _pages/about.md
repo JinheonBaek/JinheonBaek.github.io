@@ -35,12 +35,24 @@ If you are interested in or find alignment with my research, feel free to reach 
 
 (\* denotes the equal contribution; † denotes the equal advising)
 
+- [OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources](https://arxiv.org/abs/2605.29250) \\
+**Jinheon Baek**, Soyeong Jeong, Sangwoo Park, Woongyeong Yeo, Minki Kang, Patara Trirat, Heejun Lee, and Sung Ju Hwang \\
+arXiv preprint
+
 - [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880) \\
 Yumin Choi, Sangwoo Park, Minki Kang, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
 arXiv preprint
 
 - [It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs](https://arxiv.org/abs/2605.20258) \\
 Sangwoo Park\*, Woongyeong Yeo\*, Seanie Lee, Yumin Choi, Hyomin Lee, Kangsan Kim, **Jinheon Baek<sup>†</sup>**, Seong Joon Oh<sup>†</sup>, and Sung Ju Hwang<sup>†</sup> \\
+arXiv preprint
+
+- [TIDE: Proactive Multi-Problem Discovery via Template-Guided Iteration](https://arxiv.org/abs/2606.04743) \\
+Soyeong Jeong, **Jinheon Baek**, Minki Kang, and Sung Ju Hwang \\
+arXiv preprint
+
+- [MemRefine: LLM-Guided Compression for Long-Term Agent Memory](https://arxiv.org/abs/2606.13177) \\
+Minjae Kim, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
 
 - [On the Limits and Opportunities of AI Reviewers: Reviewing the Reviews of Nature-Family Papers with 45 Expert Scientists](https://arxiv.org/abs/2605.20668) \\
