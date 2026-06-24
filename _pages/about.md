@@ -59,13 +59,13 @@ arXiv preprint
 Seungone Kim, Dongkeun Yoon, Kiril Gashteovski, Juyoung Suk, **Jinheon Baek**, Pranjal Aggarwal, Ian Wu, ..., Carolin Lawrence, Xiang Yue, Alice Oh, Akari Asai, Sean Welleck, and Graham Neubig \\
 arXiv preprint
 
-- [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
-Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
-arXiv preprint
-
 - [Chain of Retrieval: Multi-Aspect Iterative Search Expansion and Post-Order Search Aggregation for Full Paper Retrieval](https://arxiv.org/abs/2507.10057) \\
 Sangwoo Park, **Jinheon Baek**, Soyeong Jeong, and Sung Ju Hwang \\
 arXiv preprint
+
+- [Rethinking Reward Models for Multi-Domain Test-Time Scaling](https://arxiv.org/abs/2510.00492) \\
+Dong Bok Lee\*, Seanie Lee\*, Sangwoo Park, Minki Kang, **Jinheon Baek**, ..., Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, and Lei Song \\
+Transactions on Machine Learning Research **(TMLR)**, 2026
 
 - [UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities](https://arxiv.org/abs/2504.20734) \\
 Woongyeong Yeo\*, Kangsan Kim\*, Soyeong Jeong, **Jinheon Baek<sup>†</sup>**, and Sung Ju Hwang<sup>†</sup> \\
@@ -84,6 +84,10 @@ Deep Learning for Code Workshop at NeurIPS **(DL4C @ NeurIPS), 2025**
 Jaewoo Lee\*, Joonho Ko\*, **Jinheon Baek**\*, Soyeong Jeong, and Sung Ju Hwang \\
 Findings of the European Chapter of the Association for Computational Linguistics **(EACL Findings), 2026** \\
 Vector Databases Workshop at ICML **(VecDB @ ICML), 2025**
+
+- [Beyond Parameters: Contextualizing Foundation Models with Universal Retrieval and Verification](/assets/files/phd_thesis.pdf) \\
+**Jinheon Baek** \\
+**Ph.D. Thesis**, KAIST, 2026
 
 - [System Prompt Optimization with Meta-Learning](https://www.arxiv.org/abs/2505.09666) \\
 Yumin Choi\*, **Jinheon Baek**\*, and Sung Ju Hwang \\
